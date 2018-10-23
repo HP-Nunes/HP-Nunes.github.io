@@ -1,9 +1,19 @@
 ---
 layout: default
-title: Hank Quinlan, Horrible Cop
+title: Hadrien's < Wall >
 ---
 
-		<div class="blurb">
-			<h1>Hi there, I'm Hank Quinlan!</h1>
-			<p>I'm best known as the horrible cop from <em>A Touch of Evil</em>. Don't trust me. <a href="/about">Read more about my life...</a></p>
-		</div> 
+<section class="hero">
+  <div class="hero-inner">
+    <div class="container">
+        <div align="center">
+          <div class="image-cropper">
+      <img class="circle" src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb"> 
+          </div>
+      <h3><small>I'm </small><strong itemprop="name">{{ site.author.name }}</strong>, <small>a </small><em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
+      <h3>{{ site.author.bio }}</h3>
+        </div>
+    </div>
+  </div>
+</section>
+

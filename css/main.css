@@ -1,29 +1,65 @@
-body { margin: 60px auto; width: 70%; }
+@font-face {
+    font-family: 'Geo Sans Light';
+    src: url("/assets/fonts/geo-sans-light/GeosansLight.ttf") format('GeosansLight');
+}
+body { margin: 60px auto; width: 70%}
 
 a { text-decoration: none; color: #999; }
-a:hover { text-decoration: underline; }
+a:hover { color: azure; }
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
+nav { font-family: 'GeosansLight'; font-size: 1.5em; line-height: 5em; color: #333; text-align: center; }
+p { font-family: 'GeosansLight'; font-size: 1.5em; line-height: 1.4em; color: white; }
 
-h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+/* h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; } */
+
+h1, h2, h3, h4 { font-family: 'GeosansLight'; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
+h3 { font-size: 2.3em; margin-top: 70px }
 h4 { font-size: 1.9em; }
 
-nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+/* nav ul, footer ul { font-size: 1.5em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; list-style: none; font-weight: bold; } */
+
+nav ul, footer ul { font-size: 1.5em; font-family: 'GeosansLight'; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+html, body{
+    padding:0px;
+    margin-top: 20px;
+}
+.image-cropper {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+/* footer { border-top: 1px solid #d5d5d5; font-size: .8em; } */
+
+/*****************************************************************/
+/*****************************************************************/
+/* About */
+p.about { margin: 20px auto 40px; font-size: 1.5em; }
+h1.about { margin: 20px auto 40px; font-size: 1.5em; }
+form.about { margin: auto; width: 50%; padding: 10px;}
 
 /* Blog */
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
+/* ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
+ul.posts li { list-style: none; } */
 
-/* CV */
-.cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
+/* Portfolio */
+/* .portfolio { margin: 0px 0px 60px; }
+.portfolio h1 { font-size: 3em; }
+.portfolio h2 { font-size: 2em; }
+.portfolio address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
+.portfolio address, .cv p { font-size: 1.2em; }
+.portfolio .download { float: right; font-size: .8em; text-transform: uppercase; } */

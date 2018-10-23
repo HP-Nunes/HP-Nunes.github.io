@@ -1,3 +1,43 @@
-name: Hank Quinlan, Horrible Cop
-markdown: kramdown
+# SEO settings
+title: Hadrien's Wall.0
+description: "HP-Nunes's portfolio and blog; using the end2end jekyll template"
+keywords: ""
+url: https://HP-Nunes.github.io
+baseurl: ""
+
+# google_analytics: UA-52446115-1
+# repo: http://github.com/nandomoreirame/end2end
+# disqus_shortname: "nandothemes"
+# disqus_site_shortname: "nandothemes"
+
+# Author settings
+author:
+  name: HP-Nunes
+  job: Programmatic Geographer
+  bio: 
+  thumb: /images/avatar.jpg
+  email: 
+  url: https://HP-Nunes.github.io
+  github: https://github.com/HP-Nunes
+  twitter: https://twitter.com/geocuriosity
+  linkedin: https://www.linkedin.com/in/hadnunpi/
+
+# Build settings
 permalink: /blog/:year/:month/:day/:title
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+  - slug: icons
+    title: Icons
+  - slug: blog
+    title: Blog

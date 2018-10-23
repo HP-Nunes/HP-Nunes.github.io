@@ -1,15 +1,54 @@
 ---
 layout: default
-title: About Hank Quinlan
+title: < About > HP-Nunes
 ---
+<style>
+.form{ margin: auto;
+	width: 70%;
+	margin-bottom: 100px;
+}
+</style>
 
 		<div class="about">
 			<h1>About</h1>
-			<p>You can optionally insert a brief bio here. You went to this school, you studied that, you now work in this field with research interests in that subject. At your previous position at this place, you worked on this or that. You can list some of your significant accomplishments, awards, or recognition here as well. You live in this city with these animals and people. In your free time you like X, Y, and Z.</p>
-
-			<ul class="contacts">
-				<li><a href="#">@TwitterHandle</a></li>
-				<li><a href="#">Your Departmental Webpage</a></li>
-				<li><a href="#">Another site you want to link to</a></li>
-				</ul>
+		<br><br>
+			<p>Based in the San Francisco Bay Area, I’m a Geographer having challenging fun with GIS technology, data analysis, programming and web development. 
+				I am also working on a Masters of Environmental Assessment, so that I may apply myself towards issues pertaining to environmental planning, mitigation, and action.</p>
 		</div>
+
+		<div class='form'>
+			<h3>Drop me a line!</h3>
+			<br>
+		<form class="cf" id="formaction" method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLSfClpXKzTROkO75KcvzsVD_k2NhMlNQWusImMbeQZePXoMZfw/formResponse?embedded=true">
+			<input type="text" name="_gotcha" style="display:none" /> <!--Security from spammer bots-->
+				<div class="half left cf">
+				  <input name="entry.1830870968" type="text" id="input-name" placeholder="Name">
+				  <input name="entry.2122153817" type="email" id="input-email" placeholder="Email address">
+				  <input name="entry.670532093" type="text" id="input-subject" placeholder="Subject">
+				</div>
+				<div class="half right cf">
+				  <textarea name="entry.1405106596" type="text" id="input-message" placeholder="Message"></textarea>
+				</div>  
+				<input type="submit" value="Submit" id="input-submit">
+		</form>
+			<script>
+					var contactform =  document.getElementById('formaction');
+					contactform.setAttribute('action', '//formspree.io/' + 'hadrien.nunes.picq' + '@' + 'gmail' + '.' + 'com');
+			</script>
+		</div>
+
+
+<!--If shit breaks-->
+<!-- <div>
+<form class="cf" action="https://docs.google.com/forms/d/e/1FAIpQLSfClpXKzTROkO75KcvzsVD_k2NhMlNQWusImMbeQZePXoMZfw/formResponse?embedded=true">
+<div class="half left cf">
+		<input name="entry.1830870968" type="text" id="input-name" placeholder="Name">
+		<input name="entry.2122153817" type="email" id="input-email" placeholder="Email address">
+		<input name="entry.670532093" type="text" id="input-subject" placeholder="Subject">
+	  </div>
+	  <div class="half right cf">
+		<textarea name="entry.1405106596" type="text" id="input-message" placeholder="Message"></textarea>
+	  </div>  
+	  <input type="submit" value="Submit" id="input-submit">
+	</form>
+</div> -->
