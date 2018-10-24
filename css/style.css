@@ -823,11 +823,13 @@ display: block;
 
 /* Image hovering text in resume section */
 
-img {
-  display: none
+img{
+  display: none;
+  width: 310px;
+  height: 120px;
 }
 
-span:hover img{
+span:hover + img{
   display: block;
 }
 

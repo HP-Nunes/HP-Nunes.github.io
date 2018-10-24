@@ -25,7 +25,7 @@ author:
 # Build settings
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 plugins: [jekyll-paginate-v2]
 
 pagination:
