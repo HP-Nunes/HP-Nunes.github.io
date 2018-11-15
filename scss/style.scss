@@ -1,3 +1,5 @@
+$base-font-family: 'PT Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/icomoon.eot?3qkin2');
@@ -114,38 +116,38 @@
 }
 
 /* Extra stuff just to make the demo pretty. */
-body {
-  padding: 35px 0;
-  color: #fff;
-  font-family: 'Lora', serif;
-  font-size: 14px;
-  text-align: center;
-  line-height: 24px;
-  background: #262730 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/noise-bg.png) repeat 0 0;
-}
+// body {
+//   padding: 35px 0;
+//   color: #fff;
+//   font-family: 'Lora', serif;
+//   font-size: 14px;
+//   text-align: center;
+//   line-height: 24px;
+//   background: #262730 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/noise-bg.png) repeat 0 0;
+// }
 
-h1 {
-  margin-bottom: 0px;
-  font-size: 55px;
-  line-height: 1.0;
-}
+// h1 {
+//   margin-bottom: 0px;
+//   font-size: 55px;
+//   line-height: 1.0;
+// }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 45px;
-  font-size: 12px;
-  text-transform: uppercase;
-}
+// h2 {
+//   font-family: 'Montserrat', sans-serif;
+//   margin-bottom: 45px;
+//   font-size: 12px;
+//   text-transform: uppercase;
+// }
 
-footer {
-  margin: 75px 0 35px;
-}
+// footer {
+//   margin: 75px 0 35px;
+// }
 
-a {
-  color: #4183c4;
-  text-decoration: none;
+// a {
+//   color: #4183c4;
+//   text-decoration: none;
   
-  &:hover {
-    color: lighten(#4183c4, 15%);
-  }
-}
+//   &:hover {
+//     color: lighten(#4183c4, 15%);
+//   }
+// }

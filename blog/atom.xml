@@ -4,11 +4,11 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Hadrien's Wall MMXVIII.0</title>
+ <title> Hadrien's Wall </title>
  <link href="http://HP-Nunes.github.io/blog/atom.xml" rel="self"/>
  <link href="http://HP-Nunes.github.io/blog"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://hankquinlan.github.io/blog</id>
+ <id>http://hp-nunes.github.io/blog</id>
  <author>
    <name>HP-Nunes</name>
    <email>hp.nunes@protonmail.com</email>
