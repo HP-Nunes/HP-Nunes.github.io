@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Breathing Between Fires"
-date: 2018-12-26
+date: 2018-12-27
 ---
 <head>
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
