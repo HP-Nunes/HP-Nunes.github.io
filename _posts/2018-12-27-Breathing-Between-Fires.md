@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Breathing Between Fires"
-date: 2018-12-27
+date: 2018-12-26
 ---
 <head>
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
@@ -384,12 +384,13 @@ d3.select(self.frameElement).style("height", "1000px");
             };
         L.control.groupedLayers(basemap,groupedOverlays,options).addTo(map)};
 </script>
+</div>
 <!-- ******************************************************************************** -->
-<br><br>
+<br>
 By averaging the AQI per fires by each <u>reporting location</u> (data was not collected at each zipcode, instead about 13 sampling stations were spread over the areas mapped above, hence why zipcodes may share the same AQI value), I sought to examine the difference in AQI between the two disasters. Not too unsurprisingly, areas further away from the sites of the Sonoma Fires registered a higher indice of worsening air quality as they were not sparred the downstream smoke of the Camp Fires. I am not surprised either that parts of Napa counties registered an average decrease of -87% as these areas were centerfold in the 2017's inferno, and I expected that trend to be true for areas of Sonoma which had been affected last year as well. However, the data actually indicates a worsening of air quality by an average of 139% in the areas of the Tubbs and Nuns Fires following this year's major fire!
-<br>
+<br><br>
 So what do we make of this?
-<br>
+<br><br>
 Well, data is primarily an empirical tool to help us understand our environment, i.e. a means to an end. I highly doubt that air quality in areas affected by the Nuns and TUbbs fire worsened by 139% the following year due to the Camp Fire. I believe what we have here is a limitation of the data available, and of the methodology employed. Namely, that data was collected at sampling stations interpolating for several zipcodes. Thus granularity was lost at the expense of making inferenced for larger areas (the author would like to stress that while he intended to overlay sampling areas--as opposed to zipcodes--he did not due to time constraints). I would also reconsider my temporal ranges in my sampling of data, to more accurately mirror full containement dates, in addition to including additional 2017 Northern California Fires which, while further away, may have had a further cumulitative impact on air quality.
-<br>
+<br><br>
 Having laid out my reservations, I do want to stress that the map does indeed reveal a higher level truth: that air quality was substantially worse over larger portion of the states in 2018 compared to 2017's events. For perspective, the Camp Fire alone burned over 150,000 acres of land, more than the three selected 2017 fires combined (while the 250 wildfires that comprised the 2017 Northern California fires burned over 245,000 acres, spread over many counties). I recall that 2017 fires were the costliest and deadliest in the state history, and sadly the casualty record was increased by a factor of 2 during this year's tragedy. And while impact on air quality has perhaps not been framed in media narrative of historicity (and let's be fair, quantifying air quality is relatively recent and difficult), I suspect that the trend may be downward if 100 year fires become annual occurences.
