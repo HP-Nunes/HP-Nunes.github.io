@@ -66,7 +66,7 @@ I was intending to write this post a couple of months back, with the intent to c
 </div>
 <center><u>Pictures taken by the author</u></center>
 <br>
-The view from San Francisco of Alameda and Marin Counties remained covered by the downstream Camp Fire's smoke for the better part of two weeks, an impact far lasting and felt than the 2017 Sonoma Fires. This lead me to revisit the U.S. Environmental Protection Agency<a href="https://docs.airnowapi.org/webservices" target="_blank"> AirNow's API</a> to comprehend the scope of the Camp Fire's effect on air pollution in the Bay Area compared to last year's the Sonoma Fires.
+The view from San Francisco of Alameda and Marin Counties remained covered by the downstream Camp Fire's smoke for the better part of two weeks, an impact far lasting and felt than the 2017 Sonoma Fires. This lead me to revisit the U.S. Environmental Protection Agency<a class="linked-text " href="https://docs.airnowapi.org/webservices" target="_blank"> AirNow's API</a> to comprehend the scope of the Camp Fire's effect on air pollution in the Bay Area compared to last year's the Sonoma Fires.
 <br><br><br>
 <h4>From Bad to Worse</h4>
 <br>

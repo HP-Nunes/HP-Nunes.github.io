@@ -12,6 +12,10 @@ title: Hadrien's < Wall >
           </div>
       <h3><small>I'm </small><strong itemprop="name">{{ site.author.name }}</strong>, <small>a </small><em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
       <h3>{{ site.author.bio }}</h3>
+      <p>
+      Latest post
+      &raquo; <a href="{{ site.posts.first.url }}" title="{{ site.posts.title }}">{{ site.posts.first.title }}</a>
+      </p>    
         </div>
     </div>
   </div>
