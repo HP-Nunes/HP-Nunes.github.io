@@ -1,8 +1,8 @@
 # SEO settings
-title: Hadrien's Wall.0
+title: HP-Nunes' personal site
 description: "HP-Nunes's portfolio and blog; using the end2end jekyll template"
 keywords: ""
-url: https://HP-Nunes.github.io
+url: https://hpnunes.com/
 baseurl: ""
 
 google_analytics: UA-133442052-1
@@ -17,7 +17,7 @@ author:
   bio: 
   thumb: /images/avatar.jpg
   email: 
-  url: https://HP-Nunes.github.io
+  url: https://hpnunes.com/
   github: https://github.com/HP-Nunes
   twitter: https://twitter.com/geocuriosity
   linkedin: https://www.linkedin.com/in/hadnunpi/

@@ -1,23 +1,22 @@
 ---
 layout: default
-title: Hadrien's < Wall >
+title: Hadrien's < homepage >
 ---
-
 <section class="hero">
-  <div class="hero-inner">
     <div class="container">
-        <div align="center">
-          <div class="image-cropper">
-      <img class="circle" src="{{ site.author.thumb | prepend: site.baseurl }}" alt="author thumb"> 
-          </div>
-      <h3><small>I'm </small><strong itemprop="name">{{ site.author.name }}</strong>, <small>a </small><em itemprop="jobTitle">{{ site.author.job }}</em>.</h3>
-      <h3>{{ site.author.bio }}</h3>
+      <section id="bio">
+          I am working on the <a href="http://www.concordia.ca/academics/graduate/environmental-assessment-menv.html" target=_blank>Master of Environment--Environmental Assessment</a> program at Concordia University, 
+          researching community air monitoring policy and practice in California.
+          I graduated from UC Berkeley with a B.A. in Geography and a minor in Geospatial Information & Technology, which has shaped my approach processing and analyzing data.
+      </section>
+
+      <br>
+      <div align="center">
       <p>
       Latest post
       &raquo; <a href="{{ site.posts.first.url }}" title="{{ site.posts.title }}">{{ site.posts.first.title }}</a>
       </p>    
-        </div>
-    </div>
+      </div>
   </div>
 </section>
 
