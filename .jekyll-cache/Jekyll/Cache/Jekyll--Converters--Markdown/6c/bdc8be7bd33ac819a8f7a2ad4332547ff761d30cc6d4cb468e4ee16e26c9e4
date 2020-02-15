@@ -1,0 +1,42 @@
+I"�<!-- Content -->
+<p>One of my anxieties of living in the San Francisco Bay Area over the past 10 years has revolved around “The Big One”: the next great earthquake born out of the San Andreas’ fault, one equivalent or greater than the 1906 event which left most of the city in ashes. However I have taken for granted a more common place type of disaster: fires.</p>
+<head>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<!-- data -->
+  <script src="/assets/postsAssets/2018-12-20-breathing-between-fires/data/PM25_NoNulls.js"></script>
+  <script src="/assets/postsAssets/2018-12-20-breathing-between-fires/data/O3.js"></script>
+  <script src="/assets/postsAssets/2018-12-20-breathing-between-fires/data/perimeterSonomaFire.js"></script>
+  <script src="/assets/postsAssets/2018-12-20-breathing-between-fires/data/perimeterCampFire.js"></script>
+  <script src="/assets/postsAssets/2018-12-20-breathing-between-fires/data/countiesCAboundaries.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+  <script src="/assets/postsAssets/2018-12-20-breathing-between-fires/src/leaflet.groupedlayercontrol.js"></script>
+  <script src="/assets/postsAssets/2018-12-20-breathing-between-fires/src/leaflet.groupedlayercontrol.css"></script>
+  <!-- Leaflet.js -->
+  <link rel="stylesheet" href="/assets/postsAssets/2018-12-20-breathing-between-fires/css/leaflet2.css" />
+  <link rel="stylesheet" href="/assets/postsAssets/2018-12-20-breathing-between-fires/css/qgis2web.css" />
+  <link rel="stylesheet" href="/assets/postsAssets/2018-12-20-breathing-between-fires/css/fontawesome-all.min.css" />
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <!-- d3 JavaScript -->   
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <!-- GroupLayers -->
+  <script src="/assets/postsAssets/2018-12-20-breathing-between-fires/src/leaflet.groupedlayercontrol.css"></script>
+  <!-- Embedded Map Attributions -->
+  <script>
+              ACCESS_TOKEN = 'pk.eyJ1IjoiZ3VhcG9yZSIsImEiOiJjanBnMWc1emYwZmxzM3dxaG95YjlpeG44In0.ZCll_-ScQC2V8JMVila5HA';
+              MB_ATTR = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+                  '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+                  'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>';
+              MB_URL = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=' + ACCESS_TOKEN;
+              OSM_URL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+              OSM_ATTRIB = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  </script>
+      <style>
+              #map {
+                  width: 600px;
+                  height: 700px;
+              }
+        </style>
+</head>
+:ET

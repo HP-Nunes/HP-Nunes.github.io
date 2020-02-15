@@ -1,37 +1,51 @@
 # SEO settings
-title: HP-Nunes' personal site
-description: "HP-Nunes's portfolio and blog; using the end2end jekyll template"
-keywords: ""
+title: HP-Nunes
+description: "Hadrien N Picq's portfolio of programming, writings, and thoughts"
+keywords: "Hadrien Picq"
 url: https://hpnunes.com/
 baseurl: ""
-
-google_analytics: UA-133442052-1
-# repo: http://github.com/nandomoreirame/end2end
-# disqus_shortname: "nandothemes"
-# disqus_site_shortname: "nandothemes"
+show_excerpts: true # set to true to show excerpts on the homepage
+# google_analytics: UA-133442052-1
 
 # Author settings
 author:
   name: HP-Nunes
   job: Programmatic Geographer
   bio: 
-  thumb: /images/avatar.jpg
-  email: 
+  thumb: /images/avatar2.jpg
+  email: contact@hpnunes.com
   url: https://hpnunes.com/
   github: https://github.com/HP-Nunes
   twitter: https://twitter.com/geocuriosity
   linkedin: https://www.linkedin.com/in/hadnunpi/
+  devpost: https://devpost.com/HadrienPicq
 
 # Build settings
 permalink: /blog/:year/:month/:day/:title
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate-v2]
+plugins_dir: 
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
+
+remote_theme: thelehhman/plainwhite-jekyll
+theme: plainwhite
 
 pagination:
   enabled: true
-  per_page: 3
+  per_page: 5
   permalink: "/page/:num/"
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Hadrien N Picq
+  tagline: Data, Environment, Geography
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+
 
 # navbar pages
 navbar:
@@ -41,5 +55,6 @@ navbar:
     title: Icons
   - slug: blog
     title: Blog
+
 
   

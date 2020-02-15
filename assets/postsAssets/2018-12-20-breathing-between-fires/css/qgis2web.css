@@ -7,6 +7,7 @@
             padding: 6px 8px;
             font: 14px/16px Arial, Helvetica, sans-serif;
             background: black;
+            color: white;
             opacity: .8;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
             border-radius: 5px;
@@ -27,9 +28,9 @@
         .leaflet-tooltip-left:before, .leaflet-tooltip-right:before {
             border: 0px;
         }
-        }
-        .fa, .leaflet-container, a {
-            color: #000000 !important;
+
+        .fa, .leaflet-container, .a {
+            color: #0078A8 !important;
         }
         .leaflet-control-zoom-in, .leaflet-control-zoom-out,
         .leaflet-control-locate a,

@@ -2,7 +2,11 @@
 layout: post
 title: "What is--and what isn't--CEQA?"
 date: 2018-11-14
+categories: Environmental-Assessment Policy California-Environmental-Quality-Act
 ---
+<!-- excerpt -->
+This post is based on content presented at the Association of Environmental Professionals' 2018 CEQA Essentials Workshop, which took place in Oakland on November 7th.
+
 <style>
 a.linked-text {
 color : #7ba9d6;
@@ -13,11 +17,9 @@ color : azure;
 </style>
 
 <p align = "center">
-<a href="https://www.califaep.org/programs/ceqa-essentials-workshops" target= "_blank"><img src="/images/svgs/CEQASerieslogo.png" alt="CEQA Series" title="CEQA Series"/></a>
+<a href="https://www.califaep.org/programs/ceqa-essentials-workshops" target= "_blank"><img src="/images/post_img/CEQASerieslogo.png" alt="CEQA Series" title="CEQA Series"/></a>
 </p>
 
-<br>
-*This post is based on content presented at the Association of Environmental Professionals' 2018 CEQA Essentials Workshop, which took place in Oakland on November 7th.*
 
 <br>
 Rachel Carson&#39;s _Silent Spring_ and the ensuing environmental movement of the 1960s saw the enactment in 1970 of both the National Environmental Policy Act at the federal level, and the <a class = "linked-text" href="http://resources.ca.gov/ceqa/more/faq.html" target= "_blank">California Environmental Quality Act</a>, the latter being the foundational guideline of environmental impact assessment in the Golden State.

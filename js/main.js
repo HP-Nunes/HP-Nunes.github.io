@@ -1,1 +1,0 @@
-GitHubCalendar(".calendar", "HP-Nunes");
