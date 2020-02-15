@@ -29,7 +29,7 @@ plugins_dir:
   - jekyll-paginate-v2
 
 remote_theme: thelehhman/plainwhite-jekyll
-theme: plainwhite
+# theme: plainwhite // will not host on GitHub Pages; only certain themes are supported: https://pages.github.com/themes/
 
 pagination:
   enabled: true
