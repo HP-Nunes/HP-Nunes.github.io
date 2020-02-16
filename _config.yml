@@ -28,7 +28,7 @@ plugins_dir:
   - jekyll-seo-tag
   - jekyll-paginate-v2
 
-remote_theme: thelehhman/plainwhite-jekyll
+# remote_theme: thelehhman/plainwhite-jekyll
 # theme: plainwhite // will not host on GitHub Pages; only certain themes are supported: https://pages.github.com/themes/
 
 pagination:
@@ -48,13 +48,13 @@ plainwhite:
 
 
 # navbar pages
-navbar:
-  - slug: about
-    title: About
-  - slug: icons
-    title: Icons
-  - slug: blog
-    title: Blog
+# navbar:
+#   - slug: about
+#     title: About
+#   - slug: icons
+#     title: Icons
+#   - slug: blog
+#     title: Blog
 
 
   
