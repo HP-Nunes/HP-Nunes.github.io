@@ -1,0 +1,71 @@
+
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+        <url>
+            <loc>http://localhost:4000</loc>
+            <lastmod>2019-06-07T00:00:00+00:00</lastmod>
+            <priority>1.00</priority>
+        </url>
+        
+            <url>
+                <loc>http://localhost:4000/blog/2019/10/04/ArchiTech</loc>
+                <lastmod>2019-10-04T00:00:00-07:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url>
+        
+            <url>
+                <loc>http://localhost:4000/blog/2019/06/30/Sensor-Assembly-Tutorial</loc>
+                <lastmod>2019-06-30T00:00:00-07:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url>
+        
+            <url>
+                <loc>http://localhost:4000/blog/2018/12/26/Breathing-Between-Fires</loc>
+                <lastmod>2018-12-26T00:00:00-08:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url>
+        
+            <url>
+                <loc>http://localhost:4000/blog/2018/11/14/what-is-CEQA</loc>
+                <lastmod>2018-11-14T00:00:00-08:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url>
+        
+            <url>
+                <loc>http://localhost:4000/blog/2014/11/26/HIP</loc>
+                <lastmod>2014-11-26T00:00:00-08:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url>
+        
+            <url>
+                <loc>http://localhost:4000/blog/2014/09/02/StapleFoods-National-Geographic</loc>
+                <lastmod>2014-09-02T00:00:00-07:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url>
+        
+            <url>
+                <loc>http://localhost:4000/blog/2014/04/16/National-Geographic</loc>
+                <lastmod>2014-04-16T00:00:00-07:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url>
+        
+            <url>
+                <loc>http://localhost:4000/blog/2014/02/28/BSJ</loc>
+                <lastmod>2014-02-28T00:00:00-08:00</lastmod>
+                <changefreq>weekly</changefreq>
+                <priority>0.80</priority>
+            </url>
+        
+    </urlset>    
+

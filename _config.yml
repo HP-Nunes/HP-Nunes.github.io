@@ -1,7 +1,7 @@
 # SEO settings
 title: HP-Nunes
 description: "Hadrien N Picq's portfolio of programming, writings, and thoughts"
-keywords: "Hadrien Picq"
+keywords: Hadrien-Picq HP-Nunes
 url: https://hpnunes.com/
 baseurl: ""
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -28,8 +28,8 @@ plugins_dir:
   - jekyll-seo-tag
   - jekyll-paginate-v2
 
-# remote_theme: thelehhman/plainwhite-jekyll
-theme: plainwhite #// will not host on GitHub Pages; only certain themes are supported: https://pages.github.com/themes/
+remote_theme: thelehhman/plainwhite-jekyll
+# theme: plainwhite #// will not host on GitHub Pages; only certain themes are supported: https://pages.github.com/themes/
 
 pagination:
   enabled: true
