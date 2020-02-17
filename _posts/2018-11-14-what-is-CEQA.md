@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What is--and what isn't--CEQA?"
+title: "What is—and what isn't—CEQA?"
 date: 2018-11-14
 categories: Environmental-Assessment Policy California-Environmental-Quality-Act
 ---
