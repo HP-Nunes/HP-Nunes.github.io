@@ -29,10 +29,6 @@ table {
   border-spacing: 4px;
   border-color: gray;
 }
-img {
-    width:500px;
-    height:300px;
-}
 </style>
 <img src="/images/post_img/2020-04-07-report/mb_indoors.jpg" alt="Profile Image" title="MB Indoor Pool" class="center">
 <br>
@@ -202,12 +198,12 @@ I ended-up removing about 10 entries (or days) down to <b>a total of 314 days</b
 <br><br>
 The two plots below shows the <b>Histogram & Boxplot of patronage for all Aquatic Activities per day</b> for the entire dataset in 2019:
 
-<img src="/images/post_img/2020-04-07-report/histogram1.png" alt="Histogram #1" class="center">
+<img src="/images/post_img/2020-04-07-report/histogram1.png" alt="Histogram #1" class="center" style="width:500px;height:300px;">
 
 
 The distribution of total daily patronage follows a normal distribution skewing to the right, with <b>a daily average of 136 patrons</b>. The right-skewing in the histogram can be explained by a many handful of outliers where attendance was very high (with a recorded <b>maximum of 679 daily patrons</b>).
 
-<img src="/images/post_img/2020-04-07-report/boxplot1.png" alt="Boxplot1" class="center">
+<img src="/images/post_img/2020-04-07-report/boxplot1.png" alt="Boxplot1" class="center"  style="width:500px;height:300px;">
 
 
 From the boxplot above, note that the <b>median is equal to 106 daily patrons</b>, a useful comparative statistic to the mean (shown as the green triangle), as the median is less suceptible to outlier values. That being said, since the distribution is approximately Gaussian (bell-curved), the mean should be approximate to the "real mean" of the population; i.e. the average daily patronage if we had 100% of all tallies recorded. 
@@ -438,7 +434,7 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 </table>
 </center>
 
-<img src="/images/post_img/2020-04-07-report/line_hourly.png" alt="Lineplot_hourly" class="center">
+<img src="/images/post_img/2020-04-07-report/line_hourly.png" alt="Lineplot_hourly" class="center"  style="width:500px;height:300px;">
 
 <br>
 
@@ -460,7 +456,7 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 </div>
 
 
-<img src="/images/post_img/2020-04-07-report/boxplot2.png" alt="Boxplot_monthly" class="center">
+<img src="/images/post_img/2020-04-07-report/boxplot2.png" alt="Boxplot_monthly" class="center"  style="width:500px;height:300px;">
 
 <br>
 
@@ -479,7 +475,7 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 </div>
 
 
-<img src="/images/post_img/2020-04-07-report/line_hourly_comparison.png" alt="Lineplot_comparison" class="center">
+<img src="/images/post_img/2020-04-07-report/line_hourly_comparison.png" alt="Lineplot_comparison" class="center"  style="width:500px;height:300px;">
 
 <br>
 
