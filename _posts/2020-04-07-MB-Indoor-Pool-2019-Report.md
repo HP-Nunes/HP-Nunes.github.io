@@ -30,8 +30,6 @@ table {
   border-color: gray;
 }
 .plots{
-  height:300px;
-  width: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -205,7 +203,7 @@ I ended-up removing about 10 entries (or days) down to <b>a total of 314 days</b
 <br><br>
 The two plots below shows the <b>Histogram & Boxplot of patronage for all Aquatic Activities per day</b> for the entire dataset in 2019:
 <div class="plots">
-    <img src="/images/post_img/2020-04-07-report/histogram1.png" alt="Histogram #1" class="center">
+    <img src="/images/post_img/2020-04-07-report/histogram1.png" alt="Histogram #1" class="center" max-width="500" max-height="300">
 </div>
 <br>
 The distribution of total daily patronage follows a normal distribution skewing to the right, with <b>a daily average of 136 patrons</b>. The right-skewing in the histogram can be explained by a many handful of outliers where attendance was very high (with a recorded <b>maximum of 679 daily patrons</b>).
