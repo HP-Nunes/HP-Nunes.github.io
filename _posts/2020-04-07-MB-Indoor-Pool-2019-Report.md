@@ -16,9 +16,9 @@ jupyter:
     language: python
     name: python3
 ---
-Over the course of 2019, the MB Indoor Pool has been patronized at least 43,067 times over the course of 324 days; that's approximately 133 times/day. During that time, the pool has seen the <em>equivalent</em> of five days without patronage, in addition to 5 days of unanticipated closure.
 
-![MB Indoor Pool](.assets/postsAssets/2020-04-07-report/mb_indoors.jpg)
+
+![MB Indoor Pool](/images/post_img/2020-04-07-report/mb_indoors.jpg)
 
 # <center>  2019 Tally Summary: MB Indoor Pool </center>
 ##### <center>  Hadrien N Picq, April 7th, 2020 </center>
