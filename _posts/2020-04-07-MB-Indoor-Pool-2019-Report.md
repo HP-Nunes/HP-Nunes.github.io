@@ -86,8 +86,7 @@ I filtered the original dataset based on the following criteria:
 As a result, approximately <b>45 %</b> of rows were retained from the original raw dataset, with a count breakdown per Aquatic Activity summarized in the table below:
 <br><br>
 <center>Sample Size of the Filtered 30 min Incremental Dataset</center>
-<br>
-<table>
+<center><table>
 <thead>
 <tr>
 <th style="text-align:left">Sample Size (N)</th>
@@ -108,7 +107,7 @@ As a result, approximately <b>45 %</b> of rows were retained from the original r
 <td style="text-align:right">5581</td>
 </tr>
 </tbody>
-</table>
+</table></center>
 
 
 <br>
@@ -134,8 +133,7 @@ I dropped rows where the number of tallies <b>grouped by the day</b>  where belo
 I ended-up removing about 10 entries (or days) down to <b>a total of 314 days</b>. I deemed this to be a necessary step in order to remove tallies with--for the most part--deflated values, thereby filtering out outlier values from the dataset.
 <br><br>
 <center>Statistical Summary of Daily Patronage of Bakar Indoor Pool for 2019</center>
-<br>
-<table>
+<center><table>
 <thead>
 <tr>
 <th style="text-align:left">Statistic (number of Swimmers)</th>
@@ -196,7 +194,7 @@ I ended-up removing about 10 entries (or days) down to <b>a total of 314 days</b
 <td style="text-align:right">155.00</td>
 </tr>
 </tbody>
-</table>
+</table></center>
 
 <br><br>
 The two plots below shows the <b>Histogram & Boxplot of patronage for all Aquatic Activities per day</b> for the entire dataset in 2019:
@@ -225,7 +223,7 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
     <script data-plotly="HP-Nunes:231" sharekey-plotly="l9Amjg71LyZXrOdJEVmUHt" src="https://plotly.com/embed.js" async></script>
 </div>
 
-
+<br>
 <center>Statistics of Hourly Patronage
 
 <table>
@@ -436,8 +434,6 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 
 <center><img src="/images/post_img/2020-04-07-report/line_hourly.png" alt="Lineplot_hourly"></center>
 
-<br>
-
 ### B. Daily Trends
 
 <b>Observations</b>:
@@ -448,7 +444,7 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 
 ### C. Monthly Trends
 
-<b> Bar Chart of the Sum of Monthly Patronage (Swimmers) per program and total, Bakar Indoor Pool 2019</b>
+<b> Bar Chart of the Sum of Monthly Patronage (Swimmers) per program and total, Bakar Indoor Pool 2019:</b>
 <br><br>
 <div>
     <a href="https://plotly.com/~HP-Nunes/239/?share_key=wSXJcu3k9CrLHjIHEyppyR" target="_blank" title="monthly_tally" style="display: block; text-align: center;"><img src="https://plotly.com/~HP-Nunes/239.png?share_key=wSXJcu3k9CrLHjIHEyppyR" alt="monthly_tally" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
