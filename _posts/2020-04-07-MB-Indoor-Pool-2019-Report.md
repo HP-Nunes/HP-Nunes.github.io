@@ -34,11 +34,8 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-.center{
-max-width: 100%;
-}
 </style>
-<img src="/images/post_img/2020-04-07-report/mb_indoors.jpg" alt="Profile Image" title="MB Indoor Pool" class="center">
+<img src="/images/post_img/2020-04-07-report/mb_indoors.jpg" alt="Profile Image" title="MB Indoor Pool">
 <br>
 
 # <center> 2019 Tally Summary: MB Indoor Pool</center>
