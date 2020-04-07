@@ -29,6 +29,10 @@ table {
   border-spacing: 4px;
   border-color: gray;
 }
+img {
+    width:100%;
+    height:100%;
+}
 </style>
 <img src="/images/post_img/2020-04-07-report/mb_indoors.jpg" alt="Profile Image" title="MB Indoor Pool" class="center">
 <br>
