@@ -26,16 +26,15 @@ jupyter:
 table {
   display: table;
   border-collapse: separate;
-  border-spacing: 2px;
+  border-spacing: 4px;
   border-color: gray;
 }
 </style>
-##### <center>  Hadrien N Picq, April 7th, 2020 </center>
-<br>
-<br>
 <img src="/images/post_img/2020-04-07-report/mb_indoors.jpg" alt="Profile Image" title="MB Indoor Pool" class="center">
+<br>
 
 # <center> 2019 Tally Summary: MB Indoor Pool</center>
+##### <center>  Hadrien N Picq, April 7th, 2020 </center>
 
 <center><br><a href="https://pdf-ace.com/pdfme/" target= "_blank">Save Report as PDF</a></center>
 
@@ -65,7 +64,7 @@ Tallying amounts to 9 hours worth of collection per day on average. The dataset 
 ---
 Note that the use of "patron/swimmer" in the text and charts is not to be interpreted as a unique patron using the facility. Patronage ought to be interpreted in the vein of "usage" by <em>individuals</em>, whether unique or reoccuring. If I use the terms "patron" and "swimmer", it is only within the framework of providing service within the scope of the aquatic facility.
 ---
-<br>
+<br><br>
 <!-- #region -->
 <a name="desc"></a>
 ## 2. Technical Summary
@@ -209,7 +208,7 @@ The distribution of total daily patronage follows a normal distribution skewing 
 
 From the boxplot above, note that the <b>median is equal to 106 daily patrons</b>, a useful comparative statistic to the mean (shown as the green triangle), as the median is less suceptible to outlier values. That being said, since the distribution is approximately Gaussian (bell-curved), the mean should be approximate to the "real mean" of the population; i.e. the average daily patronage if we had 100% of all tallies recorded. 
 <!-- #endregion -->
-<br>
+<br><br>
 <a name="trends"></a>
 ## 3. Annual Trends at a Glance
 
