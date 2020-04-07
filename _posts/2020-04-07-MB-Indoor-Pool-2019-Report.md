@@ -23,6 +23,12 @@ jupyter:
   margin-right: auto;
   width: 50%;
 }
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
 </style>
 ##### <center>  Hadrien N Picq, April 7th, 2020 </center>
 <br>
@@ -77,12 +83,32 @@ I filtered the original dataset based on the following criteria:
 
 As a result, approximately <b>45 %</b> of rows were retained from the original raw dataset, with a count breakdown per Aquatic Activity summarized in the table below:
 <br><br>
-<center>Sample Size of the Filtered 30 min Incremental Dataset
+<center>Sample Size of the Filtered 30 min Incremental Dataset</center>
+<br>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Sample Size (N)</th>
+<th style="text-align:center">Family Swim</th>
+<th style="text-align:center">Lap Swim</th>
+<th style="text-align:center">Water Excercise</th>
+<th style="text-align:center">Aquatic Programs</th>
+<th style="text-align:right">Total number of rows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">N = number of rows</td>
+<td style="text-align:center">689</td>
+<td style="text-align:center">3,646</td>
+<td style="text-align:center">973</td>
+<td style="text-align:center">1,005</td>
+<td style="text-align:right">5581</td>
+</tr>
+</tbody>
+</table>
 
-| Sample Size (N) |    Family Swim         | Lap Swim |  Water Excercise    | Aquatic Programs |   Total number of rows   |
-| :---        |    :----:              |    :----:|    :----:           |    :----:        |      ---: |
-| N = number of rows | 689             | 3,646    | 973                 | 1,005            | 5581      |
-</center>
+
 <br>
 The filtered dataset represents a total of <b>167,430 minutes</b>, or approximately over <b>116 days</b>, for which tallies were recorded. There were 241 recorded instances of 0 swimmers, equivalent to <b>7,230 minutes</b> or <b>approximately 5 days</b>.
 
@@ -106,15 +132,69 @@ I dropped rows where the number of tallies <b>grouped by the day</b>  where belo
 I ended-up removing about 10 entries (or days) down to <b>a total of 314 days</b>. I deemed this to be a necessary step in order to remove tallies with--for the most part--deflated values, thereby filtering out outlier values from the dataset.
 <br><br>
 <center>Statistical Summary of Daily Patronage of Bakar Indoor Pool for 2019</center>
-
-   | Statistic (number of Swimmers) |    Family Swim         | Lap Swim |  Water Excercise    | Aquatic Programs |   All   |
-    | :---     |    :----:              |   :----: |    :----:           |    :----:        |      ---: |
-    | Average (rounded to nearest integer)| 33                     | 46       | 26                  | 30               | 136       |
-    | Standard Deviation (rounded to the nearest hundredth)| 53.10      | 41.68    | 24.07               | 51.87            | 99.05     |
-    | Minimum X Maximum    | 0 X 319    | 0 X 566  | 0 X 101             | 0 X 331          | 28 X 679  |
-    | 25% Quartile (rounded to the nearest hundredth)         | 3.00       | 28.00    | 0.00                | 0.00             | 79.00     |
-    | 50% Quartile (rounded to the nearest hundredth)        | 10.00      | 41.00    | 26.50               | 7.00             | 106.00    |
-    | 75% Quartile (rounded to the nearest hundredth)         | 43.00      | 56.00    | 43.00               | 36.75            | 155.00    |
+<br>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Statistic (number of Swimmers)</th>
+<th style="text-align:center">Family Swim</th>
+<th style="text-align:center">Lap Swim</th>
+<th style="text-align:center">Water Excercise</th>
+<th style="text-align:center">Aquatic Programs</th>
+<th style="text-align:right">All</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Average (rounded to nearest integer)</td>
+<td style="text-align:center">33</td>
+<td style="text-align:center">46</td>
+<td style="text-align:center">26</td>
+<td style="text-align:center">30</td>
+<td style="text-align:right">136</td>
+</tr>
+<tr>
+<td style="text-align:left">Standard Deviation (rounded to the nearest hundredth)</td>
+<td style="text-align:center">53.10</td>
+<td style="text-align:center">41.68</td>
+<td style="text-align:center">24.07</td>
+<td style="text-align:center">51.87</td>
+<td style="text-align:right">99.05</td>
+</tr>
+<tr>
+<td style="text-align:left">Minimum X Maximum</td>
+<td style="text-align:center">0 X 319</td>
+<td style="text-align:center">0 X 566</td>
+<td style="text-align:center">0 X 101</td>
+<td style="text-align:center">0 X 331</td>
+<td style="text-align:right">28 X 679</td>
+</tr>
+<tr>
+<td style="text-align:left">25% Quartile (rounded to the nearest hundredth)</td>
+<td style="text-align:center">3.00</td>
+<td style="text-align:center">28.00</td>
+<td style="text-align:center">0.00</td>
+<td style="text-align:center">0.00</td>
+<td style="text-align:right">79.00</td>
+</tr>
+<tr>
+<td style="text-align:left">50% Quartile (rounded to the nearest hundredth)</td>
+<td style="text-align:center">10.00</td>
+<td style="text-align:center">41.00</td>
+<td style="text-align:center">26.50</td>
+<td style="text-align:center">7.00</td>
+<td style="text-align:right">106.00</td>
+</tr>
+<tr>
+<td style="text-align:left">75% Quartile (rounded to the nearest hundredth)</td>
+<td style="text-align:center">43.00</td>
+<td style="text-align:center">56.00</td>
+<td style="text-align:center">43.00</td>
+<td style="text-align:center">36.75</td>
+<td style="text-align:right">155.00</td>
+</tr>
+</tbody>
+</table>
 
 <br><br>
 The two plots below shows the <b>Histogram & Boxplot of patronage for all Aquatic Activities per day</b> for the entire dataset in 2019:
