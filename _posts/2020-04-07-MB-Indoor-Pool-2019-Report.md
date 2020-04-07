@@ -31,7 +31,7 @@ table {
 }
 .plots{
   height:300px;
-  width: 100%;
+  width: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -207,7 +207,7 @@ The two plots below shows the <b>Histogram & Boxplot of patronage for all Aquati
 <div class="plots">
     <img src="/images/post_img/2020-04-07-report/histogram1.png" alt="Histogram #1" class="center">
 </div>
-
+<br>
 The distribution of total daily patronage follows a normal distribution skewing to the right, with <b>a daily average of 136 patrons</b>. The right-skewing in the histogram can be explained by a many handful of outliers where attendance was very high (with a recorded <b>maximum of 679 daily patrons</b>).
 
 <div class="plots">
