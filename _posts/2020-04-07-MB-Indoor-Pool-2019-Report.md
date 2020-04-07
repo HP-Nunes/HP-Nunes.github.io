@@ -34,7 +34,7 @@ table {
   margin-left: auto;
   margin-right: auto;
 }
-center{
+.center{
 max-width: 100%;
 }
 </style>
