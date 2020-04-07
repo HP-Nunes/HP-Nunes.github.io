@@ -31,7 +31,10 @@ table {
 }
 .plots{
   height:300px;
-  width: 500px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
 <img src="/images/post_img/2020-04-07-report/mb_indoors.jpg" alt="Profile Image" title="MB Indoor Pool" class="center">
