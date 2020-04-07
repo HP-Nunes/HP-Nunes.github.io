@@ -29,6 +29,10 @@ table {
   border-spacing: 4px;
   border-color: gray;
 }
+.plots{
+  height:300px;
+  width: 500px;
+}
 </style>
 <img src="/images/post_img/2020-04-07-report/mb_indoors.jpg" alt="Profile Image" title="MB Indoor Pool" class="center">
 <br>
@@ -62,7 +66,7 @@ On weekends between 8am and 1pm, patronage is much higher on average when lesson
 Tallying amounts to 9 hours worth of collection per day on average. The dataset represents 314 days, after dropping 10 days with less than 7 tallies in order to filter out deflated values. It is estimated that the tally for 2019 represents at least 45% of what can be tallied for the year (the actual figure ought to be higher when factoring the missing tallies for October-November, Holiday scheduling, and accounting the scheduling difference between weekdays and weekends; I "guestimate" the actual figure to be at least 60%).
 
 ---
-Note that the use of "patron/swimmer" in the text and charts is not to be interpreted as a unique patron using the facility. Patronage ought to be interpreted in the vein of "usage" by <em>individuals</em>, whether unique or reoccuring. If I use the terms "patron" and "swimmer", it is only within the framework of providing service within the scope of the aquatic facility.
+Note that the use of "patron/swimmer" in the text and charts is not to be interpreted as a unique patron using the facility. Patronage ought to be interpreted in the vein of "usage" by <em>individuals</em>, whether unique or reoccuring. If I use the terms "patron" and "swimmer", it is only within the scope of customer service.
 ---
 <br><br>
 <!-- #region -->
@@ -197,14 +201,15 @@ I ended-up removing about 10 entries (or days) down to <b>a total of 314 days</b
 
 <br><br>
 The two plots below shows the <b>Histogram & Boxplot of patronage for all Aquatic Activities per day</b> for the entire dataset in 2019:
-
-<img src="/images/post_img/2020-04-07-report/histogram1.png" alt="Histogram #1" class="center" style="width:500px;height:300px;">
-
+<div class="plots">
+    <img src="/images/post_img/2020-04-07-report/histogram1.png" alt="Histogram #1" class="center">
+</div>
 
 The distribution of total daily patronage follows a normal distribution skewing to the right, with <b>a daily average of 136 patrons</b>. The right-skewing in the histogram can be explained by a many handful of outliers where attendance was very high (with a recorded <b>maximum of 679 daily patrons</b>).
 
-<img src="/images/post_img/2020-04-07-report/boxplot1.png" alt="Boxplot1" class="center"  style="width:500px;height:300px;">
-
+<div class="plots">
+<img src="/images/post_img/2020-04-07-report/boxplot1.png" alt="Boxplot1" class="center">
+</div>
 
 From the boxplot above, note that the <b>median is equal to 106 daily patrons</b>, a useful comparative statistic to the mean (shown as the green triangle), as the median is less suceptible to outlier values. That being said, since the distribution is approximately Gaussian (bell-curved), the mean should be approximate to the "real mean" of the population; i.e. the average daily patronage if we had 100% of all tallies recorded. 
 <!-- #endregion -->
@@ -434,7 +439,9 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 </table>
 </center>
 
-<img src="/images/post_img/2020-04-07-report/line_hourly.png" alt="Lineplot_hourly" class="center"  style="width:500px;height:300px;">
+<div class="plots">
+    <img src="/images/post_img/2020-04-07-report/line_hourly.png" alt="Lineplot_hourly" class="center">
+</div>
 
 <br>
 
@@ -455,8 +462,9 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
     <script data-plotly="HP-Nunes:239" sharekey-plotly="wSXJcu3k9CrLHjIHEyppyR" src="https://plotly.com/embed.js" async></script>
 </div>
 
-
-<img src="/images/post_img/2020-04-07-report/boxplot2.png" alt="Boxplot_monthly" class="center"  style="width:500px;height:300px;">
+<div class="plots">
+    <img src="/images/post_img/2020-04-07-report/boxplot2.png" alt="Boxplot_monthly" class="center">
+</div>
 
 <br>
 
@@ -474,8 +482,9 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
     <script data-plotly="HP-Nunes:198" sharekey-plotly="APJskrONpsmeyRUCzQhC6o" src="https://plotly.com/embed.js" async></script>
 </div>
 
-
-<img src="/images/post_img/2020-04-07-report/line_hourly_comparison.png" alt="Lineplot_comparison" class="center"  style="width:500px;height:300px;">
+<div class="plots">
+    <img src="/images/post_img/2020-04-07-report/line_hourly_comparison.png" alt="Lineplot_comparison" class="center">
+</div>
 
 <br>
 
