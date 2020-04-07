@@ -16,12 +16,22 @@ jupyter:
     language: python
     name: python3
 ---
-
-
-![MB Indoor Pool](/images/post_img/2020-04-07-report/mb_indoors.jpg)
-
-# <center>  2019 Tally Summary: MB Indoor Pool </center>
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
 ##### <center>  Hadrien N Picq, April 7th, 2020 </center>
+<br>
+<br>
+<img src="/images/post_img/2020-04-07-report/mb_indoors.jpg" alt="Profile Image" title="MB Indoor Pool" class="center">
+
+# <center> 2019 Tally Summary: MB Indoor Pool</center>
+
+<center><br><a href="https://pdf-ace.com/pdfme/" target= "_blank">Save Report as PDF</a></center>
 
 ### Table of Content
 
@@ -30,7 +40,7 @@ jupyter:
 3. [ Annual Trends at a Glance. ](#trends)
 4. [Analysis](#analysis1)
 
-
+<br>
 <a name="summary"></a>
 ## 1. Executive Summary
 
@@ -49,7 +59,7 @@ Tallying amounts to 9 hours worth of collection per day on average. The dataset 
 ---
 Note that the use of "patron/swimmer" in the text and charts is not to be interpreted as a unique patron using the facility. Patronage ought to be interpreted in the vein of "usage" by <em>individuals</em>, whether unique or reoccuring. If I use the terms "patron" and "swimmer", it is only within the framework of providing service within the scope of the aquatic facility.
 ---
-
+<br>
 <!-- #region -->
 <a name="desc"></a>
 ## 2. Technical Summary
@@ -67,12 +77,12 @@ I filtered the original dataset based on the following criteria:
 
 As a result, approximately <b>45 %</b> of rows were retained from the original raw dataset, with a count breakdown per Aquatic Activity summarized in the table below:
 <br><br>
-<center>Sample Size of the Filtered 30 min Incremental Dataset</center>
+<center>Sample Size of the Filtered 30 min Incremental Dataset
 
 | Sample Size (N) |    Family Swim         | Lap Swim |  Water Excercise    | Aquatic Programs |   Total number of rows   |
 | :---        |    :----:              |    :----:|    :----:           |    :----:        |      ---: |
 | N = number of rows | 689             | 3,646    | 973                 | 1,005            | 5581      |
-
+</center>
 <br>
 The filtered dataset represents a total of <b>167,430 minutes</b>, or approximately over <b>116 days</b>, for which tallies were recorded. There were 241 recorded instances of 0 swimmers, equivalent to <b>7,230 minutes</b> or <b>approximately 5 days</b>.
 
@@ -80,8 +90,7 @@ Do note however that, once the dataset is grouped by the day, these 167,430 minu
 
 Holidays were defined by the Fitness Facility's [Holiday Schedules](https://campuslifeservices.ucsf.edu/fitnessrecreation/services/fitness_centers/hours_of_operation), transposed for 2019.
 
-
-<br><br>
+<br>
 I subsequently was able to manipulate the dataset by grouping tallies by hours, days, and months.
 The daily patronage dataset can be observed in the table below:
 <div>
@@ -110,35 +119,35 @@ I ended-up removing about 10 entries (or days) down to <b>a total of 314 days</b
 <br><br>
 The two plots below shows the <b>Histogram & Boxplot of patronage for all Aquatic Activities per day</b> for the entire dataset in 2019:
 
-![Histogram #1](.assets/postsAssets/2020-04-07-report/histogram1.png)
+<img src="/images/post_img/2020-04-07-report/histogram1.png" alt="Histogram #1" class="center">
+
 
 The distribution of total daily patronage follows a normal distribution skewing to the right, with <b>a daily average of 136 patrons</b>. The right-skewing in the histogram can be explained by a many handful of outliers where attendance was very high (with a recorded <b>maximum of 679 daily patrons</b>).
 
-![Histogram #3](.assets/postsAssets/2020-04-07-report/boxplot1.png)
+<img src="/images/post_img/2020-04-07-report/boxplot1.png" alt="Boxplot1" class="center">
+
 
 From the boxplot above, note that the <b>median is equal to 106 daily patrons</b>, a useful comparative statistic to the mean (shown as the green triangle), as the median is less suceptible to outlier values. That being said, since the distribution is approximately Gaussian (bell-curved), the mean should be approximate to the "real mean" of the population; i.e. the average daily patronage if we had 100% of all tallies recorded. 
 <!-- #endregion -->
-
+<br>
 <a name="trends"></a>
 ## 3. Annual Trends at a Glance
 
 
 ### A. Hourly Trends
-<br>
 <b>Observations</b>:
 <ul type = "circle"> 
 <li>The busiest timewas at 5:15 pm on February 2nd, with 80 recorded swimmers during Family Swim.</li>
 <li>On average, attendance rises steadily from opening hours and sharply increases between 3 to 6 pm (most likely due to Family Swim programming), and steadily decreases from 6 pm until closing.</li>
-</ul>
-            
-<br><br>
+</ul>     
+<br>
 <div>
     <a href="https://plotly.com/~HP-Nunes/231/?share_key=l9Amjg71LyZXrOdJEVmUHt" target="_blank" title="patron2019" style="display: block; text-align: center;"><img src="https://plotly.com/~HP-Nunes/231.png?share_key=l9Amjg71LyZXrOdJEVmUHt" alt="patron2019" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="HP-Nunes:231" sharekey-plotly="l9Amjg71LyZXrOdJEVmUHt" src="https://plotly.com/embed.js" async></script>
 </div>
 
 
-<center>Statistics of Hourly Patronage</center>
+<center>Statistics of Hourly Patronage
 
 <table>
 <thead>
@@ -344,22 +353,22 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 </tr>
 </tbody>
 </table>
+</center>
 
+<img src="/images/post_img/2020-04-07-report/line_hourly.png" alt="Lineplot_hourly" class="center">
 
-![Lineplot_hourly](.assets/postsAssets/2020-04-07-report/line_hourly.png)
-
+<br>
 
 ### B. Daily Trends
 
-<br>
 <b>Observations</b>:
 
 * The busiest day was on Wednesday, January 13th, with 679 total swimmers.
 
+<br>
 
 ### C. Monthly Trends
 
-<br>
 <b> Bar Chart of the Sum of Monthly Patronage (Swimmers) per program and total, Bakar Indoor Pool 2019</b>
 <br><br>
 <div>
@@ -368,12 +377,12 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 </div>
 
 
-![Boxplot_monthly](.assets/postsAssets/2020-04-07-report/boxplot2.png)
+<img src="/images/post_img/2020-04-07-report/boxplot2.png" alt="Boxplot_monthly" class="center">
 
+<br>
 
 ### D. Weekdays Vs. Weekends
 
-<br>
 <b>Observations</b>:
 <ul type = "circle"> 
 <li>On average, the busiest time at the Indoor Pool is on a Weekend between 4 to 5 pm, coinciding with Family Swim programming.</li>
@@ -387,12 +396,12 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
 </div>
 
 
-![Lineplot_comparison](.assets/postsAssets/2020-04-07-report/line_hourly_comparison.png)
+<img src="/images/post_img/2020-04-07-report/line_hourly_comparison.png" alt="Lineplot_comparison" class="center">
 
+<br>
 
 ### E. Categorical Observations
 
-<br>
 <b>Observations</b>:
 
 * On average, lap swim consists of 4 swimmers.
@@ -404,7 +413,7 @@ From the boxplot above, note that the <b>median is equal to 106 daily patrons</b
     <script data-plotly="HP-Nunes:243" sharekey-plotly="vsJKrphRVSkOwJ9lODUPxC" src="https://plotly.com/embed.js" async></script>
 </div>
 
-
+<br>
 <a name="analysis1"></a>
 ## 4. Analysis
 
@@ -422,13 +431,10 @@ Noted periods indicating 'no lessons' occured from:
 * November 25th to December 7th;
 * December 30th to January 5th, 2020.
 
-<br>
 <div>
     <a href="https://plotly.com/~HP-Nunes/212/?share_key=ChCzd67GvUPrp1Lsgtp7Zn" target="_blank" title="WeekCompare" style="display: block; text-align: center;"><img src="https://plotly.com/~HP-Nunes/212.png?share_key=ChCzd67GvUPrp1Lsgtp7Zn" alt="WeekCompare" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plotly.com/404.png';" /></a>
     <script data-plotly="HP-Nunes:212" sharekey-plotly="ChCzd67GvUPrp1Lsgtp7Zn" src="https://plotly.com/embed.js" async></script>
 </div>
-
-<br>
 
 <b>Observations</b>:
 * There were <b>5,686</b> patrons over the course of 2019 on weekends with Lessons, compared to <b>1,056</b> on those with none. That's a comparison of approximately <b>76 swimmers per day to 59 between weekends with and without lessons</b>.
