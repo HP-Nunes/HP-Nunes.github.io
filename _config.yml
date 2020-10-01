@@ -46,6 +46,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
+google_analytics: UA-179370482-1
 
 # navbar pages
 # navbar:

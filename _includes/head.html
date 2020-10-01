@@ -5,4 +5,8 @@
 <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/fontello.css" | relative_url }}">
 
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+
 <title>{{ page.title | default: site.title }}</title>
