@@ -8,40 +8,46 @@
 <link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/assets/css/fontello.css">
 
+
+
 <title>HP-Nunes</title>
   </head>
 <style>
 .profile-img {
-    position: relative;
+    position: relative; 
     overflow: hidden;
-    border-radius: 60%;
+    /* border-radius: 100%; */
     vertical-align: middle;
-    width: 100%;
-    height: 100%;
+    height: 250px;
+    max-height: 100%;
     /* -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
         transform: rotate(270deg); */
 }
-.image-cropper {
-    width: 150px;
-    height: 150px;
+/* .image-cropper {
+    width: 50%;
+    height: 30%;
     position: relative;
     overflow: hidden;
-    border-radius: 50%;
-}
+    border-radius: 300%;
+} */
 </style>
 <body>
   <main class="container">
     <section class="about">
-      <div class = "image-cropper">
-      <a href="/"><img class = 'profile-img' src="/images/avatar21.jpg" alt="Hadrien N Picq"></a>
-      </div>
+      <!-- <div class = "image-cropper"> -->
+      <a href="/"><img class = 'profile-img' src="/images/avatar21.png" alt="Hadrien N Picq" style="width: 55vw; min-width: 330px;"></a>
+      <!-- </div> -->
       <h2 id="title">
         <a href="/">Hadrien N Picq</a>
       </h2>
+
       <p class="tagline">Data, Environment, Geography</p>
-      <h2><a href="/assets/download/HPNunes_Resume.pdf" target='blank' title="Download my resume (pdf)">Resume</a></h2>
+      <h2><a href="/assets/download/HPNunes_Resume.pdf" target='blank' title="Download my resume (pdf)">Resume</a>
       <br><br><br>
+      </h2>
+      
+
       <ul class="social">
         <a href="https://twitter.com/geocuriosity" target=_blank>
           <li>
@@ -76,6 +82,97 @@
     <li>
       <h1 id="posts-label">posts</h1>
     </li><li>
+        <a class="post-link" href="https://www.arcgis.com/apps/Cascade/index.html?appid=30ed983e06024f278aba835cc1287151" title="Breathing Between the Lines: StoryMap" target=_blank>
+          
+          <h2 class="post-title">Breathing Between the Lines: StoryMap</h2>
+        </a>
+        <div class="post-meta">
+          <ul class="post-categories"><li>arcGIS-Online</li><li>GIS</li><li>storymap</li></ul>
+          <div class="post-date">
+            <i class="icon-calendar"></i>
+            Sep 18, 2020</div>
+        </div>
+        <div class="post"><p>Comprehensive summary of Breathing Between the Lines, a project connecting socio-economic determinants of health, local monitoring, and the legacy of redlining for the city of Seattle, WA.</p>
+</div>
+      </li><li>
+        <a class="post-link" href="https://github.com/HP-Nunes/Breathing-Between-the-Lines" title="Breathing Between the Lines: Project's GitHub Repo" target=_blank>
+          
+          <h2 class="post-title">Breathing Between the Lines: Project&#39;s GitHub Repo</h2>
+        </a>
+        <div class="post-meta">
+          <ul class="post-categories"><li>AWS-S3</li><li>Jupyter-Notebook</li><li>Geopandas</li><li>Matplotlib</li><li>OpenAQ</li><li>Python</li><li>Requests</li><li>REST-APIs</li><li>Seaborn</li></ul>
+          <div class="post-date">
+            <i class="icon-calendar"></i>
+            Sep 18, 2020</div>
+        </div>
+        <div class="post"><p>Code repository of “Breathing Between the Lines”.</p>
+</div>
+      </li><li>
+        <a class="post-link" href="https://www.youtube.com/watch?v=z3ymkYlTRkI&feature=emb_logo" title="Methodology Presentation: Breathing Between the Lines (video)" target=_blank>
+          
+          <h2 class="post-title">Methodology Presentation: Breathing Between the Lines (video)</h2>
+        </a>
+        <div class="post-meta">
+          <ul class="post-categories"><li>community-air-monitoring</li><li>data</li><li>GIS</li><li>multicriteria-analysis</li><li>Redlining</li></ul>
+          <div class="post-date">
+            <i class="icon-calendar"></i>
+            Aug 25, 2020</div>
+        </div>
+        <div class="post"><p>This project was presented and recorded on August 25th, 2020 for ParsonsTKO’s Data for Social Impact: Racial and Economic Justice Conference. The presentation’s material and recording can be accessed at <a href="https://parsonstko.com/data-for-social-impact-conference/" target="_blank">https://parsonstko.com/data-for-social-impact-conference/</a></p>
+</div>
+      </li><li>
+        <a class="post-link" href="https://medium.com/@geocuriosity/after-the-informational-interview-ed1fc6c478c0" title="After the Informational Interview" target=_blank>
+          
+          <h2 class="post-title">After the Informational Interview</h2>
+        </a>
+        <div class="post-meta">
+          <ul class="post-categories"><li>informational-interviews</li><li>networking</li><li>professional-development</li></ul>
+          <div class="post-date">
+            <i class="icon-calendar"></i>
+            Aug 10, 2020</div>
+        </div>
+        <div class="post"><p>Reflection about maintaining professional relationships.</p>
+</div>
+      </li><li>
+        <a class="post-link" href="https://medium.com/@geocuriosity/wont-you-be-my-neighbor-f69cebceaed4" title="Won’t You Be My Neighbor?" target=_blank>
+          
+          <h2 class="post-title">Won’t You Be My Neighbor?</h2>
+        </a>
+        <div class="post-meta">
+          <ul class="post-categories"><li>K-Nearest-Neighbor</li><li>Machine-Learning</li><li>Python</li><li>Scikit-learn</li><li>Tutorial</li></ul>
+          <div class="post-date">
+            <i class="icon-calendar"></i>
+            Aug 1, 2020</div>
+        </div>
+        <div class="post"><p>An introduction to K-Nearest Neighbors with the scikit-learn library.</p>
+</div>
+      </li><li>
+        <a class="post-link" href="https://medium.com/@geocuriosity/spatial-intersects-with-geopandas-420c98915ca9" title="Spatial Intersects with Geopandas" target=_blank>
+          
+          <h2 class="post-title">Spatial Intersects with Geopandas</h2>
+        </a>
+        <div class="post-meta">
+          <ul class="post-categories"><li>Geopandas</li><li>GeoJSON</li><li>Python-Pandas</li><li>Spatial-Analysis</li><li>Tutorial</li></ul>
+          <div class="post-date">
+            <i class="icon-calendar"></i>
+            Jul 20, 2020</div>
+        </div>
+        <div class="post"><p>A tutorial on spatial intersects in Python, using an overlay of PurpleAir’s sensors as datapoints with Seattle’s city limits as a polygon.</p>
+</div>
+      </li><li>
+        <a class="post-link" href="https://medium.com/@geocuriosity/an-introduction-to-data-collection-rest-apis-with-python-pizzas-7b682cef676c" title="An Introduction to Data Collection: REST APIs with Python & Pizzas" target=_blank>
+          
+          <h2 class="post-title">An Introduction to Data Collection: REST APIs with Python &amp; Pizzas</h2>
+        </a>
+        <div class="post-meta">
+          <ul class="post-categories"><li>Data-Collection</li><li>OpenAQ</li><li>Open-Data</li><li>Python-Pandas</li><li>REST-APIs</li><li>Tutorial</li></ul>
+          <div class="post-date">
+            <i class="icon-calendar"></i>
+            Jun 15, 2020</div>
+        </div>
+        <div class="post"><p>An introduction to APIs in Python with OpenAQ, within the scope of the TechSoup and ParsonsTKO Summer 2020 Data Strategy Mentorship Program.</p>
+</div>
+      </li><li>
         <a class="post-link" href="https://plotly.com/~HP-Nunes/378/#/" title="San Francisco COVID-19 Resource Map" target=_blank>
           
           <h2 class="post-title">San Francisco COVID-19 Resource Map</h2>
@@ -89,9 +186,9 @@
         <div class="post"><p>A map of local resources which includes the location of pop-up food banks, lunch distribution for San Francisco K-1 thr 12 students, public pit stops and hand-washing stations, and dedicated hours of selected supermarkets and grocery stores for senior and immunocompromised folks. The map’s database is available and downloadable as a <a href="https://sites.google.com/view/covidresponseindexspreadsheets/home" target="_blank">Google Spreadsheet</a>.</p>
 </div>
       </li><li>
-        <a class="post-link" href="https://bakar-indoor-2019-dashboard.herokuapp.com/" title="Mission Bay, 2019 Indoor Pool Patronage Report" target=_blank>
+        <a class="post-link" href="https://pool-tally-report-plotlydash.herokuapp.com/" title="Creating A Pool Patronage Report Using Plotly Dashboard" target=_blank>
           
-          <h2 class="post-title">Mission Bay, 2019 Indoor Pool Patronage Report</h2>
+          <h2 class="post-title">Creating A Pool Patronage Report Using Plotly Dashboard</h2>
         </a>
         <div class="post-meta">
           <ul class="post-categories"><li>Data-Analysis</li><li>Data-Report</li><li>Data-Visualization</li><li>Heroku</li><li>Plotly-Dashboard</li><li>Python</li></ul>
@@ -99,7 +196,7 @@
             <i class="icon-calendar"></i>
             Apr 13, 2020</div>
         </div>
-        <div class="post"><p>2019 patronage tallies of the Bakar Fitness Center Indoor Pool compiled and analyzed for the University of California, San Francisco’s <a href="https://campuslifeservices.ucsf.edu/fitnessrecreation/services/aquatics" target="_blank">Campus Life &amp; Services, Aquatics</a>.</p>
+        <div class="post"><p>Pool patronage tally for 2019 using Plotly Dash (location redacted).</p>
 </div>
       </li><li>
         <a class="post-link" href="https://nbviewer.jupyter.org/github/HP-Nunes/cheatSheets/blob/master/CheatSheet_DataCleaning.ipynb" title="Jupyter Notebook CheatSheet: Data Cleaning" target=_blank>
@@ -192,6 +289,7 @@
               }
         </style>
 </head>
+
 </div>
       </li><li>
         <a class="post-link" href="/blog/2018/11/14/what-is-CEQA" title="What is—and what isn't—CEQA?">
@@ -206,6 +304,7 @@
         </div>
         <div class="post"><!-- excerpt -->
 <p>This post is based on content presented at the Association of Environmental Professionals’ 2018 CEQA Essentials Workshop, which took place in Oakland on November 7th.</p>
+
 </div>
       </li><li>
         <a class="post-link" href="https://infranavinsights.wordpress.com/2014/11/26/the-making-of-a-healthy-backbone-malawi-and-e-health/" title="The Making of a Healthy Backbone: Malawi and e-health" target=_blank>
