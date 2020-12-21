@@ -20,9 +20,10 @@
     vertical-align: middle;
     height: 250px;
     max-height: 100%;
-    /* -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-        transform: rotate(270deg); */
+    width: 55vw; 
+    min-width: 300px;
+    max-width: 300px;
+    margin-left:.10em;
 }
 /* .image-cropper {
     width: 50%;
@@ -36,7 +37,7 @@
   <main class="container">
     <section class="about">
       <!-- <div class = "image-cropper"> -->
-      <a href="/"><img class = 'profile-img' src="/images/avatar21.png" alt="Hadrien N Picq" style="width: 55vw; min-width: 330px;"></a>
+      <a href="/"><img class = 'profile-img' src="/images/avatar21.png" alt="Hadrien N Picq"></a>
       <!-- </div> -->
       <h2 id="title">
         <a href="/">Hadrien N Picq</a>
@@ -44,9 +45,19 @@
 
       <p class="tagline">Data, Environment, Geography</p>
       <h2><a href="/assets/download/HPNunes_Resume.pdf" target='blank' title="Download my resume (pdf)">Resume</a>
-      <br><br><br>
+        <br><br>
       </h2>
-      
+
+      <div style="display:inline-block;margin-left:.5em;">
+        Browse content by <a href="/blog/category">Categories</a> or <a href="/blog/tag">Tags</a>
+        <br><br>
+      </div>
+
+      <div style="display:inline-block;margin-left:.5em;">
+      List of TechStack & Misc. <a href="/blog/resources">Resources</a>
+      <br><br><br><br><br>
+     </div>
+
 
       <ul class="social">
         <a href="https://twitter.com/geocuriosity" target=_blank>
@@ -86,12 +97,40 @@
           
           <h2 class="post-title">Breathing Between the Lines: StoryMap</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>arcGIS-Online</li><li>GIS</li><li>storymap</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Project</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Sep 18, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#arcgis-online"><li>ArcGIS-Online</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#arcgis"><li>ArcGIS</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#gis"><li>GIS</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#mapping"><li>Mapping</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#storymap"><li>Storymap</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#air-quality"><li>Air-Quality</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#environmental-justice"><li>Environmental-Justice</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#project" style="color:blue"><li>Project</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Sep 18, 2020</div>
+          </div>
+
         <div class="post"><p>Comprehensive summary of Breathing Between the Lines, a project connecting socio-economic determinants of health, local monitoring, and the legacy of redlining for the city of Seattle, WA.</p>
 </div>
       </li><li>
@@ -99,12 +138,44 @@
           
           <h2 class="post-title">Breathing Between the Lines: Project&#39;s GitHub Repo</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>AWS-S3</li><li>Jupyter-Notebook</li><li>Geopandas</li><li>Matplotlib</li><li>OpenAQ</li><li>Python</li><li>Requests</li><li>REST-APIs</li><li>Seaborn</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Project</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Sep 18, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#aws-s3"><li>AWS-S3</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#jupyter-notebook"><li>Jupyter-Notebook</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python-geopandas"><li>Python-Geopandas</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#matplotlib"><li>Matplotlib</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#openaq-api"><li>OpenAQ-API</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python"><li>Python</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#requests"><li>Requests</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#rest-apis"><li>REST-APIs</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#seaborn"><li>Seaborn</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#project" style="color:blue"><li>Project</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Sep 18, 2020</div>
+          </div>
+
         <div class="post"><p>Code repository of “Breathing Between the Lines”.</p>
 </div>
       </li><li>
@@ -112,12 +183,38 @@
           
           <h2 class="post-title">Methodology Presentation: Breathing Between the Lines (video)</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>community-air-monitoring</li><li>data</li><li>GIS</li><li>multicriteria-analysis</li><li>Redlining</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Project</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Aug 25, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#community-air-monitoring"><li>Community-Air-Monitoring</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#gis"><li>GIS</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#spatial-analysis"><li>Spatial-Analysis</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#multicriteria-analysis"><li>Multicriteria-Analysis</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#redlining"><li>Redlining</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#environmental-justice"><li>Environmental-Justice</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#project" style="color:blue"><li>Project</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Aug 25, 2020</div>
+          </div>
+
         <div class="post"><p>This project was presented and recorded on August 25th, 2020 for ParsonsTKO’s Data for Social Impact: Racial and Economic Justice Conference. The presentation’s material and recording can be accessed at <a href="https://parsonstko.com/data-for-social-impact-conference/" target="_blank">https://parsonstko.com/data-for-social-impact-conference/</a></p>
 </div>
       </li><li>
@@ -125,12 +222,32 @@
           
           <h2 class="post-title">After the Informational Interview</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>informational-interviews</li><li>networking</li><li>professional-development</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Blog Post</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Aug 10, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#informational-interviews"><li>Informational-Interviews</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#networking"><li>Networking</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#professional-development"><li>Professional-Development</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#blog-post" style="color:blue"><li>Blog Post</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Aug 10, 2020</div>
+          </div>
+
         <div class="post"><p>Reflection about maintaining professional relationships.</p>
 </div>
       </li><li>
@@ -138,12 +255,34 @@
           
           <h2 class="post-title">Won’t You Be My Neighbor?</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>K-Nearest-Neighbor</li><li>Machine-Learning</li><li>Python</li><li>Scikit-learn</li><li>Tutorial</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Tutorial</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Aug 1, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#k-nearest-neighbor"><li>K-Nearest-Neighbor</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#machine-learning"><li>Machine-Learning</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python"><li>Python</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#scikit-learn"><li>Scikit-learn</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#tutorial" style="color:blue"><li>Tutorial</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Aug 1, 2020</div>
+          </div>
+
         <div class="post"><p>An introduction to K-Nearest Neighbors with the scikit-learn library.</p>
 </div>
       </li><li>
@@ -151,12 +290,34 @@
           
           <h2 class="post-title">Spatial Intersects with Geopandas</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Geopandas</li><li>GeoJSON</li><li>Python-Pandas</li><li>Spatial-Analysis</li><li>Tutorial</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Tutorial</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Jul 20, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python-geopandas"><li>Python-Geopandas</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#geojson"><li>GeoJSON</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python-pandas"><li>Python-Pandas</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#spatial-analysis"><li>Spatial-Analysis</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#tutorial" style="color:blue"><li>Tutorial</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Jul 20, 2020</div>
+          </div>
+
         <div class="post"><p>A tutorial on spatial intersects in Python, using an overlay of PurpleAir’s sensors as datapoints with Seattle’s city limits as a polygon.</p>
 </div>
       </li><li>
@@ -164,12 +325,38 @@
           
           <h2 class="post-title">An Introduction to Data Collection: REST APIs with Python &amp; Pizzas</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Data-Collection</li><li>OpenAQ</li><li>Open-Data</li><li>Python-Pandas</li><li>REST-APIs</li><li>Tutorial</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Tutorial</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Jun 15, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#data-collection"><li>Data-Collection</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#openaq-api"><li>OpenAQ-API</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#air-quality"><li>Air-Quality</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#open-data"><li>Open-Data</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python-pandas"><li>Python-Pandas</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#rest-apis"><li>REST-APIs</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#tutorial" style="color:blue"><li>Tutorial</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Jun 15, 2020</div>
+          </div>
+
         <div class="post"><p>An introduction to APIs in Python with OpenAQ, within the scope of the TechSoup and ParsonsTKO Summer 2020 Data Strategy Mentorship Program.</p>
 </div>
       </li><li>
@@ -177,12 +364,38 @@
           
           <h2 class="post-title">San Francisco COVID-19 Resource Map</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Community-Resources</li><li>Data-Visualization</li><li>Mapping</li><li>Plotly</li><li>Python</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Project</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Apr 16, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#community-resources"><li>Community-Resources</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#data-visualization"><li>Data-Visualization</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#mapping"><li>Mapping</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#plotly"><li>Plotly</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python"><li>Python</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#covid-19"><li>COVID-19</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#project" style="color:blue"><li>Project</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Apr 16, 2020</div>
+          </div>
+
         <div class="post"><p>A map of local resources which includes the location of pop-up food banks, lunch distribution for San Francisco K-1 thr 12 students, public pit stops and hand-washing stations, and dedicated hours of selected supermarkets and grocery stores for senior and immunocompromised folks. The map’s database is available and downloadable as a <a href="https://sites.google.com/view/covidresponseindexspreadsheets/home" target="_blank">Google Spreadsheet</a>.</p>
 </div>
       </li><li>
@@ -190,12 +403,40 @@
           
           <h2 class="post-title">Creating A Pool Patronage Report Using Plotly Dashboard</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Data-Analysis</li><li>Data-Report</li><li>Data-Visualization</li><li>Heroku</li><li>Plotly-Dashboard</li><li>Python</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Project</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Apr 13, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#data-analysis"><li>Data-Analysis</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#data-report"><li>Data-Report</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#data-visualization"><li>Data-Visualization</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#heroku"><li>Heroku</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#plotly-dashboard"><li>Plotly-Dashboard</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python"><li>Python</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#plotly"><li>Plotly</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#project" style="color:blue"><li>Project</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Apr 13, 2020</div>
+          </div>
+
         <div class="post"><p>Pool patronage tally for 2019 using Plotly Dash (location redacted).</p>
 </div>
       </li><li>
@@ -203,12 +444,34 @@
           
           <h2 class="post-title">Jupyter Notebook CheatSheet: Data Cleaning</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Jupyter-Notebook</li><li>Python-Pandas</li><li>Data-Cleaning</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Notes</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Mar 6, 2020</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#jupyter-notebook"><li>Jupyter-Notebook</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python-pandas"><li>Python-Pandas</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#data-cleaning"><li>Data-Cleaning</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#cheatsheet"><li>Cheatsheet</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#notes" style="color:blue"><li>Notes</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Mar 6, 2020</div>
+          </div>
+
         <div class="post"><p>Indexing my python pandas code snippets and tribulations into one notebook for your viewing pleasure. This cheatsheet is dedicated to data cleaning problems (field type conversions, splitting values from fields, etc etc.)</p>
 </div>
       </li><li>
@@ -216,12 +479,36 @@
           
           <h2 class="post-title">ArchiTech: Deliverable for the TechCrunch Disrupt SF Hackathon 2019</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Hackathon</li><li>3D-Mapping</li><li>Feasibility-Analysis</li><li>Urban-Planning</li><li>MapBox-API</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Hackathon</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Oct 4, 2019</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#3d-mapping"><li>3D-Mapping</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#mapping"><li>Mapping</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#feasibility-analysis"><li>Feasibility-Analysis</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#urban-planning"><li>Urban-Planning</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#mapbox"><li>MapBox</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#hackathon" style="color:blue"><li>Hackathon</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Oct 4, 2019</div>
+          </div>
+
         <div class="post"><p>ArchiTech uses publicly available data to run zoning analysis scenarios on a property in San Francisco. Working in a team of five, my role was to gather, edit, and clean GIS data (using Python Pandas, and using some SQL in QGIS). I learned how to use MapBox’s API to render 3D visualization of a target property model. More info on the project can be found on <a href="https://devpost.com/software/architech-3boi7u" target="_blank">Devpost</a>.</p>
 </div>
       </li><li>
@@ -229,12 +516,34 @@
           
           <h2 class="post-title">How to build your own low-cost air monitoring sensor: A Step-by-Step Tutorial</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Tutorial</li><li>Luftdaten</li><li>Arduino</li><li>Low-cost-micro-sensor</li><li>Fine-Particle-Pollution</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Tutorial</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Jun 30, 2019</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#sensor-community"><li>Sensor.Community</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#arduino"><li>Arduino</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#low-cost-micro-sensors"><li>Low-Cost-Micro-Sensors</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#fine-particle-pollution"><li>Fine-Particle-Pollution</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#tutorial" style="color:blue"><li>Tutorial</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Jun 30, 2019</div>
+          </div>
+
         <div class="post"><p>I made this tutorial over the course of my internship at Caravan Studios, a subdivision of TechSoup Global, on how to assemble a low-cost micro-sensing fine particle detector using open-source software.</p>
 </div>
       </li><li>
@@ -242,12 +551,34 @@
           
           <h2 class="post-title">Breathing Between Fires</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>D3.JS</li><li>Python</li><li>Data-Visualization</li><li>Air-Quality</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Blog Post</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Dec 26, 2018</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#d3-js"><li>D3.JS</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#python"><li>Python</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#data-visualization"><li>Data-Visualization</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#air-quality"><li>Air-Quality</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#blog-post" style="color:blue"><li>Blog Post</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Dec 26, 2018</div>
+          </div>
+
         <div class="post"><!-- Content -->
 <p>One of my anxieties of living in the San Francisco Bay Area over the past 10 years has revolved around “The Big One”: the next great earthquake born out of the San Andreas’ fault, one equivalent or greater than the 1906 event which left most of the city in ashes. However I have taken for granted a more common place type of disaster: fires.</p>
 <head>
@@ -289,34 +620,74 @@
               }
         </style>
 </head>
-
 </div>
       </li><li>
         <a class="post-link" href="/blog/2018/11/14/what-is-CEQA" title="What is—and what isn't—CEQA?">
           
           <h2 class="post-title">What is—and what isn&#39;t—CEQA?</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Environmental-Assessment</li><li>Policy</li><li>California-Environmental-Quality-Act</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Blog Post</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Nov 14, 2018</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#environmental-assessment"><li>Environmental-Assessment</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#policy"><li>Policy</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#california-environmental-quality-act"><li>California-Environmental-Quality-Act</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#blog-post" style="color:blue"><li>Blog Post</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Nov 14, 2018</div>
+          </div>
+
         <div class="post"><!-- excerpt -->
 <p>This post is based on content presented at the Association of Environmental Professionals’ 2018 CEQA Essentials Workshop, which took place in Oakland on November 7th.</p>
-
 </div>
       </li><li>
         <a class="post-link" href="https://infranavinsights.wordpress.com/2014/11/26/the-making-of-a-healthy-backbone-malawi-and-e-health/" title="The Making of a Healthy Backbone: Malawi and e-health" target=_blank>
           
           <h2 class="post-title">The Making of a Healthy Backbone: Malawi and e-health</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Carto</li><li>Mapping</li><li>Optic-Fiber</li><li>HIP-Consult-Inc</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Blog Post</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Nov 26, 2014</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#carto"><li>Carto</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#mapping"><li>Mapping</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#optic-fiber"><li>Optic-Fiber</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#hip-consult-inc"><li>HIP-Consult-Inc</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#blog-post" style="color:blue"><li>Blog Post</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Nov 26, 2014</div>
+          </div>
+
         <div class="post"><p>Written for HIP Consult Inc, a Washington D.C. consulting firm specialized in telecommunication contracting in the Global South. This post is about the impact of fiber optic networks on healthcare services, with a focus on Malawi as a case study.</p>
 </div>
       </li><li>
@@ -324,12 +695,32 @@
           
           <h2 class="post-title">Staple Food Crops of the World</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Food-Production</li><li>Mapping</li><li>ArcGIS</li><li>National-Geographic</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Blog Post</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Sep 2, 2014</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#national-geographic"><li>National-Geographic</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#arcgis"><li>ArcGIS</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#mapping"><li>Mapping</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#blog-post" style="color:blue"><li>Blog Post</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Sep 2, 2014</div>
+          </div>
+
         <div class="post"><p>Over the course of my internship at National Geographic’s Education Division, I created a set of maps and written content on staple food crops using datasets from the Food and Agriculture Organization of the United Nations. The map layers can be accessed and visualized directly on the <a href="https://mapmaker.nationalgeographic.org/#/" target="_blank">MapMaker Interactive</a>.</p>
 </div>
       </li><li>
@@ -337,12 +728,32 @@
           
           <h2 class="post-title">Paris’ Doppelgänger</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>Urbanization</li><li>China</li><li>Mapping</li><li>ArcGIS</li><li>National-Geographic</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Blog Post</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Apr 16, 2014</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#national-geographic"><li>National-Geographic</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#arcgis"><li>ArcGIS</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#mapping"><li>Mapping</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#blog-post" style="color:blue"><li>Blog Post</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Apr 16, 2014</div>
+          </div>
+
         <div class="post"><p>A blog post I wrote during my internship at National Geographic’s Education Division on Tianducheng, a city emblematic of China’s dramatic—and at times bizarre—urbanization.</p>
 </div>
       </li><li>
@@ -350,12 +761,30 @@
           
           <h2 class="post-title">To Know Where We Are With Geographic Information Systems is to Understand Who We Are</h2>
         </a>
-        <div class="post-meta">
-          <ul class="post-categories"><li>GIS</li><li>Think-Piece</li><li>Berkeley-Scientific-Journal</li></ul>
+        <!-- <div class="post-meta">
+          <ul class="post-categories"><li>Blog Post</li></ul>
           <div class="post-date">
             <i class="icon-calendar"></i>
             Feb 28, 2014</div>
-        </div>
+        </div> -->
+        <div class="post-meta">
+
+          <ul class="post-categories">
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#gis"><li>GIS</li></a>
+            
+            <a class="codinfox-tag-mark" href="/blog/tag/#berkeley-scientific-journal"><li>Berkeley-Scientific-Journal</li></a>
+            
+            
+            <a class="codinfox-tag-mark2" href="/blog/category/#blog-post" style="color:blue"><li>Blog Post</li></a>
+            
+          </ul>
+
+            <div class="post-date">
+              <i class="icon-calendar"></i>
+              Feb 28, 2014</div>
+          </div>
+
         <div class="post"><p>A short think-piece about the role of geospatial information in everyday life for the Berkeley Scientific Journal’s blog.</p>
 </div>
       </li></ul>

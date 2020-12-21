@@ -6,132 +6,132 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
-            <loc>http://localhost:4000</loc>
+            <loc>https://hpnunes.com/</loc>
             <lastmod>2019-06-07T00:00:00+00:00</lastmod>
             <priority>1.00</priority>
         </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/09/18/Breathing-Between-the-Lines-StoryMap</loc>
+                <loc>https://hpnunes.com//blog/2020/09/18/Breathing-Between-the-Lines-StoryMap</loc>
                 <lastmod>2020-09-18T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/09/18/Breathing-Between-the-Lines-GitHub</loc>
+                <loc>https://hpnunes.com//blog/2020/09/18/Breathing-Between-the-Lines-GitHub</loc>
                 <lastmod>2020-09-18T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/08/25/Methodology-Presentation-Breathing-Between-the-Lines-video</loc>
+                <loc>https://hpnunes.com//blog/2020/08/25/Methodology-Presentation-Breathing-Between-the-Lines-video</loc>
                 <lastmod>2020-08-25T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/08/10/After-the-Informational-Interview</loc>
+                <loc>https://hpnunes.com//blog/2020/08/10/After-the-Informational-Interview</loc>
                 <lastmod>2020-08-10T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/08/01/knn-scikitlearn</loc>
+                <loc>https://hpnunes.com//blog/2020/08/01/knn-scikitlearn</loc>
                 <lastmod>2020-08-01T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/07/20/Intersect-with-Geopandas</loc>
+                <loc>https://hpnunes.com//blog/2020/07/20/Intersect-with-Geopandas</loc>
                 <lastmod>2020-07-20T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/06/15/Getting-Started-with-Python-APIs</loc>
+                <loc>https://hpnunes.com//blog/2020/06/15/Getting-Started-with-Python-APIs</loc>
                 <lastmod>2020-06-15T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/04/16/SFcovid19-ResourceMap</loc>
+                <loc>https://hpnunes.com//blog/2020/04/16/SFcovid19-ResourceMap</loc>
                 <lastmod>2020-04-16T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/04/13/MB-Indoor-Pool-2019-Report</loc>
+                <loc>https://hpnunes.com//blog/2020/04/13/MB-Indoor-Pool-2019-Report</loc>
                 <lastmod>2020-04-13T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2020/03/06/CheatSheet-Data-Cleaning</loc>
+                <loc>https://hpnunes.com//blog/2020/03/06/CheatSheet-Data-Cleaning</loc>
                 <lastmod>2020-03-06T00:00:00-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2019/10/04/ArchiTech</loc>
+                <loc>https://hpnunes.com//blog/2019/10/04/ArchiTech</loc>
                 <lastmod>2019-10-04T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2019/06/30/Sensor-Assembly-Tutorial</loc>
+                <loc>https://hpnunes.com//blog/2019/06/30/Sensor-Assembly-Tutorial</loc>
                 <lastmod>2019-06-30T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2018/12/26/Breathing-Between-Fires</loc>
+                <loc>https://hpnunes.com//blog/2018/12/26/Breathing-Between-Fires</loc>
                 <lastmod>2018-12-26T00:00:00-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2018/11/14/what-is-CEQA</loc>
+                <loc>https://hpnunes.com//blog/2018/11/14/what-is-CEQA</loc>
                 <lastmod>2018-11-14T00:00:00-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2014/11/26/HIP</loc>
+                <loc>https://hpnunes.com//blog/2014/11/26/HIP</loc>
                 <lastmod>2014-11-26T00:00:00-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2014/09/02/StapleFoods-National-Geographic</loc>
+                <loc>https://hpnunes.com//blog/2014/09/02/StapleFoods-National-Geographic</loc>
                 <lastmod>2014-09-02T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2014/04/16/National-Geographic</loc>
+                <loc>https://hpnunes.com//blog/2014/04/16/National-Geographic</loc>
                 <lastmod>2014-04-16T00:00:00-07:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>
             </url>
         
             <url>
-                <loc>http://localhost:4000/blog/2014/02/28/BSJ</loc>
+                <loc>https://hpnunes.com//blog/2014/02/28/BSJ</loc>
                 <lastmod>2014-02-28T00:00:00-08:00</lastmod>
                 <changefreq>weekly</changefreq>
                 <priority>0.80</priority>

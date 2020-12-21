@@ -2,7 +2,8 @@
 layout: post
 title: "What is—and what isn't—CEQA?"
 date: 2018-11-14
-categories: Environmental-Assessment Policy California-Environmental-Quality-Act
+category: Blog Post
+tags: [Environmental-Assessment, Policy, California-Environmental-Quality-Act]
 ---
 <!-- excerpt -->
 This post is based on content presented at the Association of Environmental Professionals' 2018 CEQA Essentials Workshop, which took place in Oakland on November 7th.

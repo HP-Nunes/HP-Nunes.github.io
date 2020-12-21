@@ -11,9 +11,10 @@
     vertical-align: middle;
     height: 250px;
     max-height: 100%;
-    /* -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-        transform: rotate(270deg); */
+    width: 55vw; 
+    min-width: 300px;
+    max-width: 300px;
+    margin-left:.10em;
 }
 /* .image-cropper {
     width: 50%;
@@ -27,7 +28,7 @@
   <main class="container">
     <section class="about">
       <!-- <div class = "image-cropper"> -->
-      <a href="/"><img class = 'profile-img' src="{{ "/images/avatar21.png" | relative_url }}" alt="{{ site.plainwhite.name }}" style="width: 55vw; min-width: 330px;"></a>
+      <a href="/"><img class = 'profile-img' src="{{ '/images/avatar21.png' | relative_url }}" alt="{{ site.plainwhite.name }}"></a>
       <!-- </div> -->
       <h2 id="title">
         <a href="/">{{ site.plainwhite.name }}</a>
@@ -35,9 +36,19 @@
 
       <p class="tagline">{{ site.plainwhite.tagline }}</p>
       <h2><a href="/assets/download/HPNunes_Resume.pdf" target='blank' title="Download my resume (pdf)">Resume</a>
-      <br><br><br>
+        <br><br>
       </h2>
-      
+
+      <div style="display:inline-block;margin-left:.5em;">
+        Browse content by <a href="/blog/category">Categories</a> or <a href="/blog/tag">Tags</a>
+        <br><br>
+      </div>
+
+      <div style="display:inline-block;margin-left:.5em;">
+      List of TechStack & Misc. <a href="/blog/resources">Resources</a>
+      <br><br><br><br><br>
+     </div>
+
 
       <ul class="social">
         <a href="https://twitter.com/geocuriosity" target=_blank>

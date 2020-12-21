@@ -20,9 +20,10 @@
     vertical-align: middle;
     height: 250px;
     max-height: 100%;
-    /* -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-        transform: rotate(270deg); */
+    width: 55vw; 
+    min-width: 300px;
+    max-width: 300px;
+    margin-left:.10em;
 }
 /* .image-cropper {
     width: 50%;
@@ -36,7 +37,7 @@
   <main class="container">
     <section class="about">
       <!-- <div class = "image-cropper"> -->
-      <a href="/"><img class = 'profile-img' src="/images/avatar21.png" alt="Hadrien N Picq" style="width: 55vw; min-width: 330px;"></a>
+      <a href="/"><img class = 'profile-img' src="/images/avatar21.png" alt="Hadrien N Picq"></a>
       <!-- </div> -->
       <h2 id="title">
         <a href="/">Hadrien N Picq</a>
@@ -44,9 +45,19 @@
 
       <p class="tagline">Data, Environment, Geography</p>
       <h2><a href="/assets/download/HPNunes_Resume.pdf" target='blank' title="Download my resume (pdf)">Resume</a>
-      <br><br><br>
+        <br><br>
       </h2>
-      
+
+      <div style="display:inline-block;margin-left:.5em;">
+        Browse content by <a href="/blog/category">Categories</a> or <a href="/blog/tag">Tags</a>
+        <br><br>
+      </div>
+
+      <div style="display:inline-block;margin-left:.5em;">
+      List of TechStack & Misc. <a href="/blog/resources">Resources</a>
+      <br><br><br><br><br>
+     </div>
+
 
       <ul class="social">
         <a href="https://twitter.com/geocuriosity" target=_blank>
@@ -85,13 +96,7 @@
   <div class="post-meta">
     <ul class="post-categories">
       
-      <li>Carto</li>
-      
-      <li>Mapping</li>
-      
-      <li>Optic-Fiber</li>
-      
-      <li>HIP-Consult-Inc</li>
+      <li>Blog Post</li>
       
     </ul>
     <div class="post-date"><i class="icon-calendar"></i>Nov 26, 2014</div>

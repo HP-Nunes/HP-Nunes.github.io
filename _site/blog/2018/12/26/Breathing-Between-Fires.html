@@ -20,9 +20,10 @@
     vertical-align: middle;
     height: 250px;
     max-height: 100%;
-    /* -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-        transform: rotate(270deg); */
+    width: 55vw; 
+    min-width: 300px;
+    max-width: 300px;
+    margin-left:.10em;
 }
 /* .image-cropper {
     width: 50%;
@@ -36,7 +37,7 @@
   <main class="container">
     <section class="about">
       <!-- <div class = "image-cropper"> -->
-      <a href="/"><img class = 'profile-img' src="/images/avatar21.png" alt="Hadrien N Picq" style="width: 55vw; min-width: 330px;"></a>
+      <a href="/"><img class = 'profile-img' src="/images/avatar21.png" alt="Hadrien N Picq"></a>
       <!-- </div> -->
       <h2 id="title">
         <a href="/">Hadrien N Picq</a>
@@ -44,9 +45,19 @@
 
       <p class="tagline">Data, Environment, Geography</p>
       <h2><a href="/assets/download/HPNunes_Resume.pdf" target='blank' title="Download my resume (pdf)">Resume</a>
-      <br><br><br>
+        <br><br>
       </h2>
-      
+
+      <div style="display:inline-block;margin-left:.5em;">
+        Browse content by <a href="/blog/category">Categories</a> or <a href="/blog/tag">Tags</a>
+        <br><br>
+      </div>
+
+      <div style="display:inline-block;margin-left:.5em;">
+      List of TechStack & Misc. <a href="/blog/resources">Resources</a>
+      <br><br><br><br><br>
+     </div>
+
 
       <ul class="social">
         <a href="https://twitter.com/geocuriosity" target=_blank>
@@ -85,13 +96,7 @@
   <div class="post-meta">
     <ul class="post-categories">
       
-      <li>D3.JS</li>
-      
-      <li>Python</li>
-      
-      <li>Data-Visualization</li>
-      
-      <li>Air-Quality</li>
+      <li>Blog Post</li>
       
     </ul>
     <div class="post-date"><i class="icon-calendar"></i>Dec 26, 2018</div>
@@ -159,7 +164,7 @@ color : azure;
 <!-- Content -->
 
 <h4>Towards a new abnormal</h4>
-<p>During the fall of 2017, fires came to affect me in two ways: the first being that of a close one having to relocate due to a (thankfully mild) structure fire, and the other stemming from the series of wildfires in the North Bay also known as the <a class="linked-text" href="https://en.wikipedia.org/wiki/October_2017_Northern_California_wildfires" target="_blank"> 2017 Sonoma Fires</a>. The former showed how disruptive such an event can be for any individual, including the difficulties of disaster response agencies to accomodate victims of fires, even in a major city. The latter, which I experienced through the sight, smell and taste of degraded air, was a rude awakening to the environmental impact of large-scale fires. 
+<p>During the fall of 2017, fires came to affect me in two ways: the first being that of a close one having to relocate due to a (thankfully mild) structure fire, and the other stemming from the series of wildfires in the North Bay also known as the <a class="linked-text" href="https://en.wikipedia.org/wiki/October_2017_Northern_California_wildfires" target="_blank"> 2017 Sonoma Fires</a>. The former showed how disruptive such an event can be for any individual, including the difficulties of disaster response agencies to accomodate victims of fires, even in a major city. The latter, which I experienced through the sight, smell and taste of degraded air, was a rude awakening to the environmental impact of large-scale fires.
 <br /><br />
 I was intending to write this post a couple of months back, with the intent to compare air quality readings in the SF Bay Area between this year and last Fall. All I intended to show was a comparison between baseline conditions (i.e. air quality with the absence of major nearby fires) and 2017 data which I had already collected a few months back in my data bootcamp. However as I was working through it all, this happened (taken on November 9th at 1pm):
 <br />
@@ -170,7 +175,7 @@ I was intending to write this post a couple of months back, with the intent to c
   </div>
 <p><br /><br /><br /></p>
 <div class="hoverImg">
-    <img src="/images/post_img/viewSFBay_normalconditions.jpg" alt="Profile Image" title="Under normative (and clear weather) conditions, Alameda and Marin Counties are visible from San Francisco's North Point" /> 
+    <img src="/images/post_img/viewSFBay_normalconditions.jpg" alt="Profile Image" title="Under normative (and clear weather) conditions, Alameda and Marin Counties are visible from San Francisco's North Point" />
 <!-- </div> -->
 <!-- <center><u>Pictures taken by the author</u></center> -->
 By comparison, under normative (and clear weather) conditions, Alameda and Marin Counties are visible from San Francisco's North Point.
@@ -224,11 +229,11 @@ The Camp Fire’s AQI was sampled from November 8th to the 18th of this year, th
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>    
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
- 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+
 </div>
 <!-- ******************************************************************************** -->
 <script>
@@ -246,15 +251,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block"; 
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
@@ -271,7 +276,7 @@ The timeseries showing the change in AQI for both ozone and fine particulates of
 <!-- Leaflet.js Map -->
 <div id="map"></div>
 <div id="map-legend">
-      <div class="title"><h4>Average Air Quality Change in <a class="link" href="https://airnow.gov/index.cfm?action=aqibasics.particle" target="_blank">PM<sub>2.5</sub>Particles</a> 
+      <div class="title"><h4>Average Air Quality Change in <a class="link" href="https://airnow.gov/index.cfm?action=aqibasics.particle" target="_blank">PM<sub>2.5</sub>Particles</a>
       <br /> 2017 Sonoma Fires - 2018 Camp Fires</h4>
       <div class="title">-84% . . . . . . . . . . . . . . . . . +246%</div>
     </div>
@@ -374,14 +379,14 @@ d3.select(self.frameElement).style("height", "1000px");
             this._div.innerHTML =
               "Air Quality Index<br><br>" +
               (props
-                ? "<font color = 'yellow'>" + 
+                ? "<font color = 'yellow'>" +
                   props.NAME + " County</font>" + " [zipcode: <font color = 'yellow'>" +
                   props.zipcode + "</font>]"+
                   "<br/>" +
-                  " Air quality changed by an average of <font color = 'yellow'>" 
-                  + props.pm25diff 
-                  + "%</font> between the 2017 Sonoma Fires (<font color = 'red'>" 
-                  + props.pm25_sf + " AQI</font>" + 
+                  " Air quality changed by an average of <font color = 'yellow'>"
+                  + props.pm25diff
+                  + "%</font> between the 2017 Sonoma Fires (<font color = 'red'>"
+                  + props.pm25_sf + " AQI</font>" +
                   ") and the 2018 Camp Fire (<font color = 'red'>" +
                   props.pm25_cf + " AQI</font>)"
                 : "Hover over a zipcode area");

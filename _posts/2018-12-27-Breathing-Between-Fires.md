@@ -2,7 +2,8 @@
 layout: post
 title: "Breathing Between Fires"
 date: 2018-12-26
-categories: D3.JS Python Data-Visualization Air-Quality
+category: Blog Post
+tags: [D3.JS, Python, Data-Visualization, Air-Quality]
 ---
 <!-- Content -->
 One of my anxieties of living in the San Francisco Bay Area over the past 10 years has revolved around "The Big One": the next great earthquake born out of the San Andreas' fault, one equivalent or greater than the 1906 event which left most of the city in ashes. However I have taken for granted a more common place type of disaster: fires.
@@ -66,7 +67,7 @@ color : azure;
 <!-- Content -->
 
 <h4>Towards a new abnormal</h4>
-During the fall of 2017, fires came to affect me in two ways: the first being that of a close one having to relocate due to a (thankfully mild) structure fire, and the other stemming from the series of wildfires in the North Bay also known as the <a class="linked-text" href="https://en.wikipedia.org/wiki/October_2017_Northern_California_wildfires" target="_blank"> 2017 Sonoma Fires</a>. The former showed how disruptive such an event can be for any individual, including the difficulties of disaster response agencies to accomodate victims of fires, even in a major city. The latter, which I experienced through the sight, smell and taste of degraded air, was a rude awakening to the environmental impact of large-scale fires. 
+During the fall of 2017, fires came to affect me in two ways: the first being that of a close one having to relocate due to a (thankfully mild) structure fire, and the other stemming from the series of wildfires in the North Bay also known as the <a class="linked-text" href="https://en.wikipedia.org/wiki/October_2017_Northern_California_wildfires" target="_blank"> 2017 Sonoma Fires</a>. The former showed how disruptive such an event can be for any individual, including the difficulties of disaster response agencies to accomodate victims of fires, even in a major city. The latter, which I experienced through the sight, smell and taste of degraded air, was a rude awakening to the environmental impact of large-scale fires.
 <br><br>
 I was intending to write this post a couple of months back, with the intent to compare air quality readings in the SF Bay Area between this year and last Fall. All I intended to show was a comparison between baseline conditions (i.e. air quality with the absence of major nearby fires) and 2017 data which I had already collected a few months back in my data bootcamp. However as I was working through it all, this happened (taken on November 9th at 1pm):
 <br>
@@ -77,7 +78,7 @@ I was intending to write this post a couple of months back, with the intent to c
   </div>
   <br><br><br>
   <div class="hoverImg">
-    <img src="/images/post_img/viewSFBay_normalconditions.jpg" alt="Profile Image" title="Under normative (and clear weather) conditions, Alameda and Marin Counties are visible from San Francisco's North Point"> 
+    <img src="/images/post_img/viewSFBay_normalconditions.jpg" alt="Profile Image" title="Under normative (and clear weather) conditions, Alameda and Marin Counties are visible from San Francisco's North Point">
 <!-- </div> -->
 <!-- <center><u>Pictures taken by the author</u></center> -->
 By comparison, under normative (and clear weather) conditions, Alameda and Marin Counties are visible from San Francisco's North Point.
@@ -131,11 +132,11 @@ The Camp Fire's AQI was sampled from November 8th to the 18th of this year, the 
 
 <!-- The dots/circles -->
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>    
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(4)"></span> 
- 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+
 </div>
 <!-- ******************************************************************************** -->
 <script>
@@ -153,15 +154,15 @@ function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
+  if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
+      slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block"; 
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 </script>
@@ -177,7 +178,7 @@ The timeseries showing the change in AQI for both ozone and fine particulates of
 <!-- Leaflet.js Map -->
 <div id="map"></div>
   <div id="map-legend">
-      <div class='title'><h4>Average Air Quality Change in <a class = 'link' href = 'https://airnow.gov/index.cfm?action=aqibasics.particle' target="_blank">PM<sub>2.5</sub>Particles</a> 
+      <div class='title'><h4>Average Air Quality Change in <a class = 'link' href = 'https://airnow.gov/index.cfm?action=aqibasics.particle' target="_blank">PM<sub>2.5</sub>Particles</a>
       <br> 2017 Sonoma Fires - 2018 Camp Fires</h4>
       <div class='title'>-84% . . . . . . . . . . . . . . . . . +246%</div>
     </div>
@@ -280,14 +281,14 @@ d3.select(self.frameElement).style("height", "1000px");
             this._div.innerHTML =
               "Air Quality Index<br><br>" +
               (props
-                ? "<font color = 'yellow'>" + 
+                ? "<font color = 'yellow'>" +
                   props.NAME + " County</font>" + " [zipcode: <font color = 'yellow'>" +
                   props.zipcode + "</font>]"+
                   "<br/>" +
-                  " Air quality changed by an average of <font color = 'yellow'>" 
-                  + props.pm25diff 
-                  + "%</font> between the 2017 Sonoma Fires (<font color = 'red'>" 
-                  + props.pm25_sf + " AQI</font>" + 
+                  " Air quality changed by an average of <font color = 'yellow'>"
+                  + props.pm25diff
+                  + "%</font> between the 2017 Sonoma Fires (<font color = 'red'>"
+                  + props.pm25_sf + " AQI</font>" +
                   ") and the 2018 Camp Fire (<font color = 'red'>" +
                   props.pm25_cf + " AQI</font>)"
                 : "Hover over a zipcode area");
