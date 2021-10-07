@@ -42,7 +42,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Hadrien N Picq
-  tagline: Data, Environment, Geography
+  tagline: MEnv Environmental Assessment
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
 
