@@ -2,7 +2,7 @@
 layout: post
 title: "UC Berkeley Extension Capstone Project: Predicting Restaurants Longevity in San Francisco"
 date: 2018-10-13
-external_url: sf-rvm.herokuapp.com/
+external_url: https://sf-rvm.herokuapp.com/
 external_site: PUB_NAME
 category: Project
 tags: [Data-Analysis, Data-Report, Data-Visualization, Heroku, Machine Learning, Python, Tableau]
