@@ -16,11 +16,11 @@ table, th, td {
 
 I think Clear does a great job providing a structure to first understand our actions before acting on them. There’s a fair amount of frameworks covered, so I’ll be summarizing what I took away, with the intent to apply those techniques deliberately so that I may achieve many of the objectives I’ve set for myself (like learning how to play the guitar, read more books, and improve as a programmer).
 
-<img align="center" width="600" height="800"src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_1.jpg"> 
-
+<div align="center"><img width="600" height="800" src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_1.jpg"></div>
+<br>
 <h2>1. The Habit Loop</h2>
 <br>
-<img align="center" width="600" height="800" src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_2.jpg"> 
+<div align="center"><img width="600" height="800" src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_2.jpg"></div>
 <br><br>
 
 <p>
