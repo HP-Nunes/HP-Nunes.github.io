@@ -7,33 +7,22 @@ tags: [Productivity, Reading-Thoughts, Self-Improvement]
 ---
 
 <style>
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: 50%;
-}
 table, th, td {
   border:1px solid black;
 }
 div {text-align: center;}
 </style>
-
-<h1>here is no teacher but the enemy:  Reading Thoughts on Atomic Habits (2019)</h1>
-<br>
-<img class="center" src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_1.jpg"> 
-<br><br>
-
 <p>
 Atomic Habits by James Clear is one of the most well-known productivity books out there, and for good reasons: it’s a straightforward and easy read with intuitive insights about transforming the habits we take for granted into deliberate behavior. If you’ve heard of the concept of how the compounding effect of 1% daily improvements yields a return of doing <em>something</em> 37 times better after a year (whereas doing something worse by 1% over that same time period results in a 3% decline), it was probably regurgitated from this book.
 
 I think Clear does a great job providing a structure to first understand our actions before acting on them. There’s a fair amount of frameworks covered, so I’ll be summarizing what I took away, with the intent to apply those techniques deliberately so that I may achieve many of the objectives I’ve set for myself (like learning how to play the guitar, read more books, and improve as a programmer).
 </p>
 
+<img align="center" width="600" height="800"src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_1.jpg"> 
+
 <h2>1. The Habit Loop</h2>
 <br>
-<img class="center" src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_2.jpg"> 
+<img align="center" width="600" height="800" src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_2.jpg"> 
 <br><br>
 
 <p>
