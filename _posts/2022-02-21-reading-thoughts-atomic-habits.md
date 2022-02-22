@@ -21,7 +21,6 @@ I think Clear does a great job providing a structure to first understand our act
 <h2>1. The Habit Loop</h2>
 <br>
 <div align="center"><img width="600" height="800" src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_2.jpg"></div>
-<br><br>
 
 <p>
 The <b>Habit Loop (HL)</b> describes the cycle by which habitual behavior is enabled, often without deliberate intent. The HL is described in two phases and four stages:
