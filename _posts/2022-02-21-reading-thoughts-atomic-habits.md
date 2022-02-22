@@ -5,14 +5,14 @@ date: 2022-02-21
 category: Blog Post
 tags: [Productivity, Reading-Thoughts, Self-Improvement]
 ---
+<!-- Content -->
+Atomic Habits by James Clear is one of the most well-known productivity books out there, and for good reasons: it’s a straightforward and easy read with intuitive insights about transforming the habits we take for granted into deliberate behavior. If you’ve heard of the concept of how the compounding effect of 1% daily improvements yields a return of doing <em>something</em> 37 times better after a year (whereas doing something worse by 1% over that same time period results in a 3% decline), it was probably regurgitated from this book.
 
 <style>
 table, th, td {
   border:1px solid black;
 }
 </style>
-
-Atomic Habits by James Clear is one of the most well-known productivity books out there, and for good reasons: it’s a straightforward and easy read with intuitive insights about transforming the habits we take for granted into deliberate behavior. If you’ve heard of the concept of how the compounding effect of 1% daily improvements yields a return of doing <em>something</em> 37 times better after a year (whereas doing something worse by 1% over that same time period results in a 3% decline), it was probably regurgitated from this book.
 
 I think Clear does a great job providing a structure to first understand our actions before acting on them. There’s a fair amount of frameworks covered, so I’ll be summarizing what I took away, with the intent to apply those techniques deliberately so that I may achieve many of the objectives I’ve set for myself (like learning how to play the guitar, read more books, and improve as a programmer).
 
@@ -72,13 +72,13 @@ The four laws of behavioral change target each stage of the HL. They’re outlin
 <p>
 One of the core concepts of the book is the concept of ‘habit stacking’, which is an implementation of intentionality by identifying a current habit and building another on top of it. Clear describes it using the following formula:
 <div align="center"><b>“After I [CURRENT HABIT], I will [NEW HABIT]”.</b></div>
-
+<br>
 Habit stacking is a powerful concept, and what enables the compounding return of daily habits over the long-term. It also proves to be less daunting than to adopt new habits from scratch, and improve the odds of sticking with said new habits.
 
 Another implementation formula that I like is:
 
 <div align="center"><b>“I will [BEHAVIOR] at [TIME] in [LOCATION]”.</b></div>
-
+<br>
 This is helpful to remember applying developing habits consistently and deliberately, especially for someone like myself who’s often scatterbrained. The key here is consistency until the habit becomes normative behavior, something which, thinking back, was the formula drilled into us as children by our parents (“I will [BRUSH MY TEETH] [BEFORE GOING TO BED] [WHEN I CHANGE INTO MY PAJAMAS IN THE BATHROOM]”, for example). What’s revealing about Clear’s book is thinking back about each little daily ritual and thinking back about where they originated, which often began in childhood. Just goes to show how important habitual behavior during the stage of childhood development is to functioning adulthood.
 
 I also really liked Clear’s emphasis on preparing an environment which is conducive to cuing into a habit rather than relying on intrinsic motivation, which is often fleeting and flimsy. “Small change in what you see can lead to a big shift in what you do” is a pretty powerful idea to gear one’s mindset reflectively. I think that it’s important to unload as much mental clutter externally. For me, using a digital calendar that I can access on my phone easily has considerably improved the retention of many habits compared to a physical annotation board that I could only consult at my desk. It’s a virtuous cycle: to effectively stack habits, your surroundings have to reinforce the objectives of what you want to become, and not merely what you want to achieve. 
@@ -111,7 +111,7 @@ We tend to be unkind to our future selves for immediate pleasure. Therefore, a f
 Another profound insight I really liked is Clear’s mention of ‘Goodhart’s Law’:
 
 <div align="center"><b>“When a measure becomes a target, it ceases to be a good measure”.</b></div>
-
+<br>
 This is something I can especially appreciate as a data analyst, where decision-making can become pigeonholed by KPIs and metrics that only tell a part of a larger, richer, more complex reality. 
 
 For myself, I have a weight loss goal, so my weight has been a quantitative measure of my progress for a long time. But as Clear points out, it’s also about how a new habit makes one feel, about the larger picture of improving one’s quality of life, the richness of forming bonds, the self-satisfaction of the process in itself. Thankfully, even though I have not yet met my weight target, at the very least I’ve profoundly enjoyed rediscovering the joys of swimming years after I had practiced any. We tend to place empirical values on pedestal towards measuring the ‘true’ worth of something. We’re humans, not fucking machines, and we are not ascribed to the endless process of bean-counting the commodified value of our self-worth. There is no shame in <em>feeling</em>, even when we are not at our best.
@@ -126,7 +126,7 @@ The other enemy of motivation is boredom: although, in itself, boredom isn’t t
 Finally, one last mnemonic formula to keep in mind:
 
 <div align="center"><b>Habits + Deliberate Practice = Mastery</b></div>
-
+<br>
 If mastery in a skill or subject is what you seek, reverse engineer what are the habits that contribute to success, and what is the work that needs to go into it. Mastery is not a continuous, exponential line, but a stepwise increase, different floors at which the ‘game is played’. In conclusion, perfect the art of self-awareness, be kind to yourself in your failures, allow yourself to take pride in your progress, and move from an objective-oriented mindset towards a system-oriented one. 
 
 The teacher is the enemy (an insightful idea quoted in the sci-fi book <em>Ender’s Game</em>). If the accumulation of bad habits is your own worst enemy, learn from it, and fight it, and become stronger each day. It sounds like motivational drivel speech, but there’s a genuine ring to it.
