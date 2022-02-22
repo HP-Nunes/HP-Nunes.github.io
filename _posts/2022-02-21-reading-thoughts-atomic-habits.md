@@ -12,11 +12,9 @@ table, th, td {
 }
 </style>
 
-<p>
 Atomic Habits by James Clear is one of the most well-known productivity books out there, and for good reasons: it’s a straightforward and easy read with intuitive insights about transforming the habits we take for granted into deliberate behavior. If you’ve heard of the concept of how the compounding effect of 1% daily improvements yields a return of doing <em>something</em> 37 times better after a year (whereas doing something worse by 1% over that same time period results in a 3% decline), it was probably regurgitated from this book.
 
 I think Clear does a great job providing a structure to first understand our actions before acting on them. There’s a fair amount of frameworks covered, so I’ll be summarizing what I took away, with the intent to apply those techniques deliberately so that I may achieve many of the objectives I’ve set for myself (like learning how to play the guitar, read more books, and improve as a programmer).
-</p>
 
 <img align="center" width="600" height="800"src="https://raw.githubusercontent.com/HP-Nunes/HP-Nunes.github.io/master/images/post_img/atomic_1.jpg"> 
 
@@ -73,7 +71,7 @@ The four laws of behavioral change target each stage of the HL. They’re outlin
 <h3>Make it obvious</h3>
 <p>
 One of the core concepts of the book is the concept of ‘habit stacking’, which is an implementation of intentionality by identifying a current habit and building another on top of it. Clear describes it using the following formula:
-<div><b>“After I [CURRENT HABIT], I will [NEW HABIT]”.</b></div>
+<div align="center"><b>“After I [CURRENT HABIT], I will [NEW HABIT]”.</b></div>
 
 Habit stacking is a powerful concept, and what enables the compounding return of daily habits over the long-term. It also proves to be less daunting than to adopt new habits from scratch, and improve the odds of sticking with said new habits.
 
@@ -97,7 +95,7 @@ Here Clear pointed to something that I’ve kept in mind for a long time: that b
 
 Another key advice is the idea that “the amount of time performed on a habit is not as important as the number of times that it has been performed”. This is definitely true: 5 minutes of daily practice is a hundred times better than an hour of sporadic practice. This is something I’ve experienced from martial arts (although not having practiced in years, I’m still capable at the drop of a hat of doing a double jumping 360-degree round kick from the sheer amount of time I’ve practiced it, it’s simply imprinted onto my muscle memory), or my (current) failing attempts at learning chord transitions on the guitar. 
 
-<div><b>Consistency > Cramming; always.</b></div>
+<div align="center"><b>Consistency > Cramming; always.</b></div>
 </p>
 
 <h3>Make it satisfying</h3>
