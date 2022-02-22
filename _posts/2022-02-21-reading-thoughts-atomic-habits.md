@@ -10,8 +10,8 @@ tags: [Productivity, Reading-Thoughts, Self-Improvement]
 table, th, td {
   border:1px solid black;
 }
-div {text-align: center;}
 </style>
+
 <p>
 Atomic Habits by James Clear is one of the most well-known productivity books out there, and for good reasons: it’s a straightforward and easy read with intuitive insights about transforming the habits we take for granted into deliberate behavior. If you’ve heard of the concept of how the compounding effect of 1% daily improvements yields a return of doing <em>something</em> 37 times better after a year (whereas doing something worse by 1% over that same time period results in a 3% decline), it was probably regurgitated from this book.
 
@@ -79,7 +79,7 @@ Habit stacking is a powerful concept, and what enables the compounding return of
 
 Another implementation formula that I like is:
 
-<div><b>“I will [BEHAVIOR] at [TIME] in [LOCATION]”.</b></div>
+<div align="center"><b>“I will [BEHAVIOR] at [TIME] in [LOCATION]”.</b></div>
 
 This is helpful to remember applying developing habits consistently and deliberately, especially for someone like myself who’s often scatterbrained. The key here is consistency until the habit becomes normative behavior, something which, thinking back, was the formula drilled into us as children by our parents (“I will [BRUSH MY TEETH] [BEFORE GOING TO BED] [WHEN I CHANGE INTO MY PAJAMAS IN THE BATHROOM]”, for example). What’s revealing about Clear’s book is thinking back about each little daily ritual and thinking back about where they originated, which often began in childhood. Just goes to show how important habitual behavior during the stage of childhood development is to functioning adulthood.
 
@@ -112,7 +112,7 @@ We tend to be unkind to our future selves for immediate pleasure. Therefore, a f
 
 Another profound insight I really liked is Clear’s mention of ‘Goodhart’s Law’:
 
-<div><b>“When a measure becomes a target, it ceases to be a good measure”.</b></div>
+<div align="center"><b>“When a measure becomes a target, it ceases to be a good measure”.</b></div>
 
 This is something I can especially appreciate as a data analyst, where decision-making can become pigeonholed by KPIs and metrics that only tell a part of a larger, richer, more complex reality. 
 
@@ -127,7 +127,7 @@ The other enemy of motivation is boredom: although, in itself, boredom isn’t t
 
 Finally, one last mnemonic formula to keep in mind:
 
-<div><b>Habits + Deliberate Practice = Mastery</b></div>
+<div align="center"><b>Habits + Deliberate Practice = Mastery</b></div>
 
 If mastery in a skill or subject is what you seek, reverse engineer what are the habits that contribute to success, and what is the work that needs to go into it. Mastery is not a continuous, exponential line, but a stepwise increase, different floors at which the ‘game is played’. In conclusion, perfect the art of self-awareness, be kind to yourself in your failures, allow yourself to take pride in your progress, and move from an objective-oriented mindset towards a system-oriented one. 
 
